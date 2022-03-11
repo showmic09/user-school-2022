@@ -1,0 +1,20 @@
+site_name: OSG User School 2022
+site_url: https://opensciencegrid.org/user-school-2022/
+repo_name: null
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: False
+  - meta
+  - pymdownx.details
+  - toc:
+      permalink: True
+
+extra_css:
+  - stylesheets/code-highlight.css
+
+nav:
+  - Home:                           index.md
