@@ -1,12 +1,32 @@
 # OSG User School 2022
 
-The OSG User School 2022 is planned as
-an in-person event
-from July 25&ndash;29
-at [the University of Wisconsin&ndash;Madison](https://wisc.edu/).
+<p style="font-size: larger; font-weight: bold;">Could you transform your research with vast amounts of computing?</p>
 
-More information will be posted very soon,
-and applications will be accepted from about mid-March through mid-April.
+*Learn how during a week this summer at the lovely [University of Wisconsin–Madison](https://wisc.edu/)*
+
+During the School,
+July 25–29,
+you could learn to use [high-throughput computing](https://htcondor.org/htc.html) (HTC) systems —
+at your own campus or using the national-scale [OSG](https://osg-htc.org/) —
+to run large-scale computing applications that are at the heart of today’s cutting-edge science.
+
+Through lectures, discussions, and **lots of hands-on activities** with experienced OSG staff,
+you will learn how HTC systems work,
+how to run and manage lots of jobs and huge datasets to implement a scientific computing workflow,
+and where to turn for more information and help.
+
+The school is ideal for graduate students in any research area
+for which large-scale computing is a vital part of the research process,
+plus we welcome applications from advanced undergraduates, post-doctoral students, faculty, and staff
+(especially staff who perform research or support/facilitate researchers).
+
+People accepted to this program will receive financial support for
+basic travel and local costs associated with the School.
+
+## Applications
+
+We plan to accept applications from about mid-March through mid-April.
+Check here for a link to the application system.
 
 ## Contact Us
 
