@@ -1,5 +1,9 @@
 # OSG User School 2022
 
+<figure>
+    <img src="assets/Madison_Skyline.jpeg" alt="Madison Skyline" />
+</figure>
+
 <p style="font-size: larger; font-weight: bold;">Could you transform your research with vast amounts of computing?</p>
 
 *Learn how during a week this summer at the lovely [University of Wisconsin–Madison](https://wisc.edu/)*
@@ -39,3 +43,5 @@ If you have any questions about the event, feel free to email us:
 <user-school@opensciencegrid.org>
 
 <a href="https://www.facebook.com/OSGUserSchool" target="_blank" style="border: 0px none black; text-decoration: none;"><img src="files/FB-f-Logo__blue_512.png" height="28" width="28" alt="Facebook logo"></a> <a href="https://twitter.com/OSGUserSchool" target="_blank" style="border: 0px none black; text-decoration: none;"><img src="files/Twitter_logo_blue.png" style="height: 28px; width: 28px; background-color: white;" alt="Twitter logo"></a> OSGUserSchool
+
+*Image provided by Wikimedia user Av9 under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons License</a>

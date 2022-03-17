@@ -3,6 +3,8 @@ site_url: https://opensciencegrid.org/user-school-2022/
 repo_name: null
 theme:
   name: material
+  logo: assets/OSG_Logo.svg
+  favicon: assets/OSG_Logo.png
 
 markdown_extensions:
   - admonition
@@ -15,6 +17,16 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/code-highlight.css
+  - stylesheets/osg.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/OSGUserSchool
+      name: OSG User School on Twitter
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/OSGUserSchool
+      name: OSG User School on Facebook
 
 nav:
   - Home:                           index.md
