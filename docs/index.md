@@ -8,8 +8,6 @@
 
 *Learn how during a week this summer at the lovely [University of Wisconsin–Madison](https://wisc.edu/)*
 
-<p style="color: #FF6600; font-weight: bold;">Applications are now open! <a href="#applications">See below</a> for details.</p>
-
 During the School,
 July 25–29,
 you will learn to use [high-throughput computing](https://htcondor.org/htc.html) (HTC) systems —
@@ -31,38 +29,24 @@ basic travel and local costs associated with the School.
 
 ## Applications
 
-Applications are now open.
-**The deadline for applications is Monday, 18 April 2022.**
-Submit your application soon to ensure consideration!
+Applications are now closed for 2022.
+The deadline for applications was Monday, 18 April 2022.
 
-To apply, complete both of the steps below (in parallel, if you like):
-
-* Complete the [online application form](https://uwmadison.co1.qualtrics.com/jfe/form/SV_bdBbGikmcgabwGO)
-  (the link goes to a Qualtrics survey, which is the application)
-
-* Have someone email a letter of recommendation for you to
-  [user-school@opensciencegrid.org](mailto:user-school@opensciencegrid.org)
-  (any reasonable format is fine; we like PDF or plain text best)
+If still needed,
+have someone email a letter of recommendation for you to
+[user-school@opensciencegrid.org](mailto:user-school@opensciencegrid.org)
+(any reasonable format is fine; we like PDF or plain text best)
 
 For the letter of recommendation, ask someone who knows you professionally&nbsp;&mdash;
 ideally a faculty member or other supervisor.
 They should clearly identify your name and the “OSG User School 2022” in the subject line and letter,
 so that we can associate your application and letter.
 
-Ideal candidates will:
-
-*   Be graduate students doing research or support staff helping researchers (but see below)
-*   Need large amounts of computing, which could transform research or open new paths to discovery
-*   Have basic experience with the Linux command line (or learn beforehand)
-*   Be available to travel to Madison for the School dates (foreign students, check your passport and visa now!)
-
-**Not a graduate student or support staff?**
-We consider applications from advanced undergraduates,
-especially those who are involved in graduate-level research or coursework;
-tell us what you have done!
-Also, we consider members of other groups
-(post-doctoral students, faculty, researchers, other staff, etc.),
-especially if this opportunity is likely to have a significant effect on your work or research or that of others.
+**Applicants:**
+We plan to review applications by late April and invite participants by early May or so.
+Once decisions have been made,
+we will notify you using the email address you put in the application.
+Thank you for your patience!
 
 ## Contact Us
 
