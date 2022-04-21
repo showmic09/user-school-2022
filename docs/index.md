@@ -31,7 +31,7 @@ Check here for a link to the application system.
 ## Contact Us
 
 The OSG User School is part of the
-[OSG Outreach Area](https://opensciencegrid.org/outreach/)&nbsp;&mdash;
+[OSG Outreach Area](https://osg-htc.org/outreach/)&nbsp;&mdash;
 please visit that site to learn about other OSG Outreach activities.
 
 If you have any questions about the event, feel free to email us:
