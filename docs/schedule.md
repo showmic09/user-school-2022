@@ -3,6 +3,8 @@
 This page contains the schedule for the OSG User School 2022.
 
 Currently, this is a summary schedule meant to show roughly what activities will occur and when.
+The schedule may change, but the main activities are likely to remain.
+
 A detailed schedule will replace the summary before the School begins.
 
 ## Sunday, July 24
