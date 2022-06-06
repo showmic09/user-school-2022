@@ -31,3 +31,9 @@ extra:
 nav:
   - Home:                           index.md
   - Schedule:                       schedule.md
+  - Logistics:
+    - General information:          logistics/index.md
+    - Visa requirements:            logistics/visas.md
+    - Travel planning:              logistics/travel.md
+    - Travel Inc form tips:         logistics/travel-form.md
+    - Hotel information:            logistics/hotel.md
