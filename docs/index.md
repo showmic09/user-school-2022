@@ -29,24 +29,8 @@ basic travel and local costs associated with the School.
 
 ## Applications
 
-Applications are now closed for 2022.
-The deadline for applications was Monday, 18 April 2022.
-
-If still needed,
-have someone email a letter of recommendation for you to
-[user-school@opensciencegrid.org](mailto:user-school@opensciencegrid.org)
-(any reasonable format is fine; we like PDF or plain text best)
-
-For the letter of recommendation, ask someone who knows you professionally&nbsp;&mdash;
-ideally a faculty member or other supervisor.
-They should clearly identify your name and the “OSG User School 2022” in the subject line and letter,
-so that we can associate your application and letter.
-
-**Applicants:**
-We plan to review applications by late April and invite participants by early May or so.
-Once decisions have been made,
-we will notify you using the email address you put in the application.
-Thank you for your patience!
+Applications are now closed and all applicants have been notified of their status.
+We received a large number of applications this year, so thanks to everyone for your enthusiastic interest!
 
 ## Contact Us
 
