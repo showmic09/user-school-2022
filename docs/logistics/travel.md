@@ -23,9 +23,10 @@ Here are a few ideas that have worked in the past to help some School travelers:
     we can reimburse mileage and tolls up to a point.
     Or look into bus routes, especially from larger cities like Chicago.
 
--   If you fly, it may be much cheaper to fly to Milwaukee (1&frac12; hours away) or Chicago (2&frac12; hours away),
+-   If you fly, it *may* be much cheaper to fly to Milwaukee (1&frac12; hours away) or Chicago (2&frac12; hours away),
     then take a direct bus to Madison.
     The buses are very comfortable, have wi-fi, and run frequently.
+    Flying to Madison is the goal, but in some cases we will consider the fly-and-bus option.
     See below.
 
 -   Also if you fly, be flexible about departure times &mdash;
@@ -43,10 +44,10 @@ University rules say that our travel agency, Travel Incorporated, must buy your 
 Use the following information to get air travel tickets:
 
 -   In the email that we sent you about arranging travel,
-    you will find the link to Travel Incorporated&rsquo;s &ldquo;UWS Traveler Booking Form&rdquo; form
+    click the link to Travel Incorporated&rsquo;s &ldquo;UWS Traveler Booking Form&rdquo; form
     (on smartsheet.com).
-    Use that link to request air travel
-    plus [this page of tips](travel-form.md) for filling out the form.
+
+-   You will need information on [this page of tips](travel-form.md) to complete the form.
 
 -   We must review and approve *most* trips.
     Travel Inc can purchase tickets directly only in the easiest cases.
