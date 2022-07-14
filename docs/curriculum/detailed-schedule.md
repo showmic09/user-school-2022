@@ -1,4 +1,8 @@
-# July 25 (Monday)
+# Detailed Schedule
+
+Some details in the schedule will change before the event and there are some additions to make, but the overall plan here is accurate.
+
+## July 25 (Monday)
 
 | Start | End | Event                                                                         | Instructor |
 |-------|-------|-------------------------------------------------------------------------------|------------------------|
@@ -14,7 +18,7 @@
 | 15:00 | 15:15 | Lecture: Setting goals for the School and beyond                              | Christina |
 | 15:15 | 17:00 | Hands-on: Goals and unfinished exercises <br> Individual consultations (some) | staff |
 
-# July 26 (Tuesday)
+## July 26 (Tuesday)
 
 | Start | End | Event                                                                            | Instructor |
 |-------|-------|----------------------------------------------------------------------------------|------------------------|
@@ -30,7 +34,7 @@
 | 14:45 | 15:30 | Lecture & demo: Software portability                                             | Christina |
 | 15:30 | 17:00 | Hands-on: Software and unfinished exercises <br> Individual consultations (some) | staff |
 
-# July 27 (Wednesday)
+## July 27 (Wednesday)
 
 | Start | End                            | Event                                                           | Instructor |
 |-------|--------------------------------|-----------------------------------------------------------------|------------|
@@ -44,7 +48,7 @@
 | 12:45 | 13:30 | Lunch (can take and go)                                         | —          |             
 | 13:30 | 17:00 | Afternoon off, if you like <br> Individual consultations (some) |  staff     |
 
-July 28 (Thursday)
+## July 28 (Thursday)
 
 | Start | End                            | Event                                                                                                                      | Instructor |
 |-------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------|
@@ -60,7 +64,7 @@ July 28 (Thursday)
 |  14:45 | 15:30 | Optional: Lecture & demo: Using containers <br> Or work time: Apply HTC to own research                                    | Mats |
 | 15:30 | 17:00 | Optional hands-on: Containers <br> Work time: Apply HTC to own research <br> Individual and small-group meetings available | staff |
 
-# July 29 (Friday)
+## July 29 (Friday)
 
 | Start | End                            | Event                                                                                                                              | Instructor |
 |-------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
