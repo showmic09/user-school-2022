@@ -32,8 +32,6 @@ extra:
 nav:
   - Home:                           index.md
   - Schedule:                       schedule.md
-  - Curriculum:
-    - Detailed Schedule:            curriculum/detailed-schedule.md
   - Logistics:
     - General information:          logistics/index.md
     - Visa requirements:            logistics/visas.md
