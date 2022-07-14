@@ -3,9 +3,6 @@
     --md-primary-fg-color: #F1A52C;
     --md-primary-bg-color: #3a3a3a;
     --md-accent-fg-color: #FFC364;
-
-
-
 }
 
 :root>* {
@@ -17,6 +14,15 @@
 
 .md-typeset h1, .md-typeset h2 {
     font-weight: 400;
+}
+
+.md-typeset__table td {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.md-typeset table th {
+    min-width: 0px !important;
 }
 
 
