@@ -80,7 +80,7 @@ Some details in the schedule will change before the event and there are some add
         <td>
             <span class="before-dot text-pink">Hands-on: Goals and unfinished exercises</span> 
             <br> 
-            <span class="before-dot text-orange">Individual consultations (some)</span>
+            <span class="before-dot text-black">Individual consultations (some)</span>
         </td>
         <td>staff</td>
     </tr>
@@ -165,7 +165,7 @@ Some details in the schedule will change before the event and there are some add
         <td>
             <span class="before-dot text-pink">Hands-on: Software and unfinished exercises</span>
             <br> 
-            <span class="before-dot text-orange">Individual consultations (some)</span>
+            <span class="before-dot text-black">Individual consultations (some)</span>
         </td>
         <td>staff</td>
     </tr>
@@ -237,7 +237,7 @@ Some details in the schedule will change before the event and there are some add
         <td>17:00</td>
         <td>
             Afternoon off, if you like <br> 
-            <span class="before-dot text-orange">Individual consultations (some)</span>
+            <span class="before-dot text-black">Individual consultations (some)</span>
         </td>
         <td>staff</td>
     </tr>
@@ -307,7 +307,7 @@ Some details in the schedule will change before the event and there are some add
         <td>
             <span class="before-dot text-pink">Hands-on: DAGMan</span> <br>
             <span class="before-dot text-light-orange">Work time: Apply HTC to own research</span> <br>
-            <span class="before-dot text-orange">Individual and small-group meetings available </span>
+            <span class="before-dot text-black">Individual and small-group meetings available </span>
         </td>
         <td>staff</td>
     </tr>
@@ -332,7 +332,7 @@ Some details in the schedule will change before the event and there are some add
         <td>
             <span class="before-dot text-pink">Hands-on: Containers</span> <br> 
             <span class="before-dot text-light-orange">Work time: Apply HTC to own research</span> <br>
-            <span class="before-dot text-orange">Individual and small-group meetings available</span>
+            <span class="before-dot text-black">Individual and small-group meetings available</span>
         </td>
         <td>staff</td>
     </tr>
@@ -372,7 +372,7 @@ Some details in the schedule will change before the event and there are some add
         <td>
             <span class="before-dot text-pink">Hands-on: Self-checkpointing</span> <br>
             <span class="before-dot text-light-orange">Work time: Apply HTC to own research</span> <br>
-            <span class="before-dot text-orange">Individual and small-group meetings available</span>
+            <span class="before-dot text-black">Individual and small-group meetings available</span>
         </td>
         <td>staff</td>
     </tr>
@@ -396,7 +396,7 @@ Some details in the schedule will change before the event and there are some add
         <td>12:00</td>
         <td>
             <span class="before-dot text-light-orange">Work time: Apply HTC to own research </span><br>
-            <span class="before-dot text-orange">Individual and small-group meetings available</span>
+            <span class="before-dot text-black">Individual and small-group meetings available</span>
         </td>
         <td>staff</td>
     </tr>

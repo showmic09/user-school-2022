@@ -57,6 +57,10 @@
     background-color: #ffb000;
 }
 
+.text-black::before {
+    background-color: #000;
+}
+
 /*$text: #3a3a3a;*/
 /*$primary: */
 /*$secondary: #F1A52C;*/
