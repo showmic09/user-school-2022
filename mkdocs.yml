@@ -32,6 +32,7 @@ extra:
 nav:
   - Home:                           index.md
   - Schedule:                       schedule.md
+  - Covid Policy:                   covid-policy.md
   - Logistics:
     - General information:          logistics/index.md
     - Visa requirements:            logistics/visas.md
