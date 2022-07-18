@@ -1,4 +1,4 @@
-# COVID Policy Text
+# COVID Policy
 
 The OSG User School 2022 at the University of Wisconsin–Madison welcomes participants
 from around the United States plus Mali and Uganda. We are excited to resume the 
@@ -6,10 +6,10 @@ in-person School, but recognize the current COVID-19 situation and the added ris
 that in-person events bring. This page contains the COVID policies and plans for 
 the School.
 
-The core principle is that we are all in this together. If we are careful and find 
-a way to balance safety with academic and social interests, then we will have a 
-successful event together. So it is up to each and every one of us to consider 
-carefully our actions and the consequences on everyone.
+The core principle is that **we are all in this together**.
+If we are careful and find a way to balance safety with academic and social interests,
+then we will have a successful event together.
+So it is up to each and every one of us to consider carefully our actions and the consequences on everyone.
 
 !!! note "The information listed below applies to both vaccinated and unvaccinated participants."
 
@@ -17,13 +17,15 @@ carefully our actions and the consequences on everyone.
     chills, cough, sore throat, body aches, headaches, and/or loss of taste or smell. 
     Additional information on COVID-19 symptoms can be found on the [Center for Disease
     Control’s website](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html).
- 
+
 ## Before Traveling to the School
 
 Points to consider the week leading up to the School:
 
 - Try to minimize social contacts the week prior to the School, to reduce the chance that you contract COVID.
+
 - Get a COVID test shortly before traveling. Ideally, do this the evening before or the morning of travel (or both, if you have extra tests). Rapid tests are best for this purpose, so that you have t​​he result before leaving home.
+
 - **If you tested positive recently (past 2 weeks or so), you must get a negative test before coming to the School.**
 
 If you test positive before the School and are therefore not cleared to travel, 
@@ -73,9 +75,7 @@ to ensure adequate supply and good fit. However, we do have a supply of
 KN95s available for people who cannot provide their own, but the kind 
 we have may not fit you well.
 
-!!! warning "Note"
-
-    Cloth or other thin masks are not effective and should be avoided.
+Cloth or other thin masks are not effective and should be avoided.
 
 If you have reasons for not being able to wear a high-quality mask during the 
 School, please [contact us](mailto:user-school@opensciencegrid.org) as soon as 
