@@ -31,9 +31,26 @@ extra:
 nav:
   - Home:                           index.md
   - Schedule:                       schedule.md
+  - Covid Policy:                   covid-policy.md
   - Logistics:
     - General information:          logistics/index.md
     - Visa requirements:            logistics/visas.md
     - Travel planning:              logistics/travel.md
     - Travel Inc form tips:         logistics/travel-form.md
     - Hotel information:            logistics/hotel.md
+    - Local Transportation:         logistics/local-transportation.md
+    - School Location:              logistics/location.md
+    - Extracurricular Activities:   logistics/fun.md
+  - Materials:
+    - Overview:                     materials/index.md
+    - HTC Exercises:
+      - Exercise 1.1:               materials/htcondor/part1-ex1-login.md
+      - Exercise 1.2:               materials/htcondor/part1-ex2-commands.md
+      - Exercise 1.3:               materials/htcondor/part1-ex3-jobs.md
+      - Exercise 1.4:               materials/htcondor/part1-ex4-logs.md
+      - Exercise 1.5:               materials/htcondor/part1-ex5-request.md
+      - Exercise 1.6:               materials/htcondor/part1-ex6-remove.md
+      - Bonus Exercise 1.7:         materials/htcondor/part1-ex7-compile.md
+      - Bonus Exercise 1.8:         materials/htcondor/part1-ex8-queue.md
+      - Bonus Exercise 1.9:         materials/htcondor/part1-ex9-status.md
+      - Bonus Exercise 1.10:        materials/htcondor/part1-ex10-job-retry.md
