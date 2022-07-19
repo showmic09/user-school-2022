@@ -41,6 +41,7 @@ nav:
     - Hotel information:            logistics/hotel.md
     - Local Transportation:         logistics/local-transportation.md
     - School Location:              logistics/location.md
+    - Meals at the School:          logistics/meals.md
     - Extracurricular Activities:   logistics/fun.md
   - Materials:
     - Overview:                     materials/index.md
