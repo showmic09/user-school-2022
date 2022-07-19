@@ -1,6 +1,22 @@
 # Detailed Schedule
 
-Some details in the schedule will change before the event and there are some additions to make, but the overall plan here is accurate.
+Some details in the schedule will change before the event and there are some additions to make,
+but the overall plan here is accurate.
+
+## July 24 (Sunday)
+
+**Welcome social gathering for participants and staff**
+
+*   **Location:** Memorial Union (800 Langdon St), outdoors;
+    more exact location will be posted Sunday&nbsp;&mdash; please check back here!
+*   **Time:** 7:00&ndash;8:00 p.m., or until people leave
+*   **Masks:** Optional, assuming we can stay outdoors and a bit spaced out
+
+From the hotel, it is about a one-mile walk to the Union.
+We suggest walking down State Street, which is a great place to hang out in general.
+Or consider taking a city bus for part of the trip; see the [local transportation page](logistics/local-transportation.md).
+
+The Union should be open, and so things like ice cream and beer will be available there.
 
 ## July 25 (Monday)
 
