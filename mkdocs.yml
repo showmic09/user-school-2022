@@ -56,3 +56,5 @@ nav:
       - Bonus Exercise 1.8:         materials/htcondor/part1-ex8-queue.md
       - Bonus Exercise 1.9:         materials/htcondor/part1-ex9-status.md
       - Bonus Exercise 1.10:        materials/htcondor/part1-ex10-job-retry.md
+    - Checkpointing Exercises:
+      - Exercise 1.1:               materials/checkpoint/part1-ex1-checkpointing.md
