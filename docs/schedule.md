@@ -233,14 +233,13 @@ The Union should be open, and so things like ice cream and beer will be availabl
     <tr>
         <td>11:15</td>
         <td>12:15</td>
-        <td>
+        <td colspan="2">
           HTC Showcase, Part 1
           <br>
           &#9654; Ariana Negreiro; UW–Madison, Animal &amp; Dairy Sciences
           <br>
           &#9654; Edgar Spalding; UW–Madison, Botany
         </td>
-        <td></td>
     </tr>
     <tr>
         <td>12:15</td>
@@ -437,8 +436,13 @@ The Union should be open, and so things like ice cream and beer will be availabl
     <tr>
         <td>13:15</td>
         <td>14:15</td>
-        <td>HTC Showcase, Part 2</td>
-        <td></td>
+        <td colspan="2">
+          HTC Showcase, Part 2
+          <br>
+          &#9654; Connor Natzke; Colorado School of Mines, Physics
+          <br>
+          &#9654; Matt Garcia; UW–Madison, Forest &amp; Wildlife Ecology
+        </td>
     </tr>
     <tr>
         <td>14:15</td>
