@@ -38,7 +38,6 @@ View the slides
 - [Bonus Exercise 1.9: Explore `condor_status`](htcondor/part1-ex9-status.md)
 - [Bonus Exercise 1.10: A job that needs retries](htcondor/part3-ex10-job-retry.md)
 
-<!-- COMMENTING EVERYTHING BELOW HERE, SO CONTENT OWNERS CAN UNCOMMENT AS THEY COMPLETE THINGS
 ## Software
 
 Slides will be posted here
@@ -49,23 +48,30 @@ Slides will be posted here
 - [Exercise 1.2: Use a Wrapper Script To Run Software](software/part1-ex2-wrapper.md)
 - [Exercise 1.3: Using Arguments With Wrapper Scripts](software/part1-ex3-arguments.md)
 
-### Software Exercises 2: Specific Software Examples (Pick One)
+### Software Exercises 2: Specific Software Examples (Pick Two)
 
-- [Exercise 2.1: Compiling and Running a Simple Code](srw/part2-ex1-compiling.md)
+- [Exercise 2.1: Compiling and Running a Simple Code](software/part2-ex1-compiling.md)
+<!-- still working on 
 - [Exercise 2.2: Compiling a Research Software](software/part2-ex2-prepackaged.md)
 - [Exercise 2.3: Compiling Python and Running Jobs](software/part2-ex3-python.md)
+--> 
+
 - [Exercise 2.4: Compiling Matlab and Running Jobs](software/part2-ex4-matlab.md)
+- [Exercise 2.5: Using Conda Environments (Beta)](software/part2-ex5-conda.md)
 
 ### Software Exercises 3: Using Containers in Jobs (Strongly Recommended)
 
 - [Exercise 3.1: Using Software in a Singularity Container](software/part3-ex1-singularity.md)
+<!-- still working on 
+- [Exercise 3.2: Singularity Examples on OSG Connect](software/part3-ex2-singularity-options.md)
+--> 
 
-### Bonus Exercises: Bonus Exercises
+### Bonus Exercises: More With Containers
 
-- [Exercise 4.1: Additional Python ](software/part4-ex1-python-extras.md)
-- [Exercise 4.2: Using Software in a Docker Container](software/part4-ex2-docker.md)
-- [Exercise 4.3: Building Your Own Docker Container (Beta)](software/part4-ex3-docker-build.md)
-- [Exercise 4.4: Using Conda Environments (Beta)](software/part4-ex4-conda.md)
+- [Exercise 4.1: Using Software in a Docker Container](software/part4-ex1-docker.md)
+- [Exercise 4.2: Building Your Own Docker Container (Beta)](software/part4-ex2-docker-build.md)
+
+<!-- COMMENTING EVERYTHING BELOW HERE, SO CONTENT OWNERS CAN UNCOMMENT AS THEY COMPLETE THINGS
 
 ## Data
 
