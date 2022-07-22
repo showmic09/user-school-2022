@@ -32,17 +32,19 @@ extra:
 nav:
   - Home:                           index.md
   - Schedule:                       schedule.md
-  - COVID Policy:                   covid-policy.md
+  - COVID policy:                   covid-policy.md
   - Logistics:
     - General information:          logistics/index.md
+    - Travel:
+      - Advice:                     logistics/travel-advice.md
+      - Local transportation:       logistics/local-transportation.md
+      - Travel planning:            logistics/travel.md
+      - Travel Inc form tips:       logistics/travel-form.md
     - Visa requirements:            logistics/visas.md
-    - Travel planning:              logistics/travel.md
-    - Travel Inc form tips:         logistics/travel-form.md
     - Hotel information:            logistics/hotel.md
-    - Local Transportation:         logistics/local-transportation.md
-    - School Location:              logistics/location.md
+    - School location:              logistics/location.md
     - Meals at the School:          logistics/meals.md
-    - Extracurricular Activities:   logistics/fun.md
+    - Fun activities:               logistics/fun.md
   - Materials:
     - Overview:                     materials/index.md
     - HTC Exercises:
@@ -56,3 +58,5 @@ nav:
       - Bonus Exercise 1.8:         materials/htcondor/part1-ex8-queue.md
       - Bonus Exercise 1.9:         materials/htcondor/part1-ex9-status.md
       - Bonus Exercise 1.10:        materials/htcondor/part1-ex10-job-retry.md
+    - Checkpointing Exercises:
+      - Exercise 1.1:               materials/checkpoint/part1-ex1-checkpointing.md

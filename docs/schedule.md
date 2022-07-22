@@ -21,15 +21,15 @@ The Union should be open, and so things like ice cream and beer will be availabl
 ## July 25 (Monday)
 
 <table>
-    <thead>
+  <thead>
     <tr>
         <th>Start</th>
         <th>End</th>
         <th>Event</th>
         <th>Instructor</th>
     </tr>
-    </thead>
-    <tbody>
+  </thead>
+  <tbody>
     <tr>
         <td>8:00</td>
         <td>8:45</td>
@@ -418,51 +418,45 @@ The Union should be open, and so things like ice cream and beer will be availabl
     </tr>
     <tr>
         <td>12:00</td>
-        <td>13:00</td>
+        <td>12:50</td>
         <td>Lunch</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>13:00</td>
-        <td>13:30</td>
+        <td>12:50</td>
+        <td>13:15</td>
         <td>Group photo (outside)</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>13:30</td>
-        <td>14:30</td>
+        <td>13:15</td>
+        <td>14:15</td>
         <td>HTC Showcase, Part 2</td>
         <td></td>
     </tr>
     <tr>
-        <td>14:30</td>
-        <td>15:00</td>
-        <td>Open Q&amp;A and discussion time</td>
+        <td>14:15</td>
+        <td>14:45</td>
+        <td>Open Q&amp;A and discussion time, or<br>Break, if you like</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>15:00</td>
-        <td>15:15</td>
-        <td>Break</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>15:15</td>
-        <td>16:15</td>
+        <td>14:45</td>
+        <td>15:45</td>
         <td>Lightning talks by (volunteer) participants</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>16:15</td>
-        <td>16:30</td>
+        <td>15:45</td>
+        <td>16:00</td>
         <td>Open Q&amp;A and discussion time</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>16:30</td>
+        <td>16:00</td>
         <td>17:00</td>
-        <td><span class="before-dot text-light-blue">Lecture: Where to go and what to do next</span></td>
+        <td><span class="before-dot text-light-blue">Lecture: The End &hellip; and the Beginning</span></td>
         <td>Tim C.</td>
     </tr>
-    </tbody>
+  </tbody>
 </table>
