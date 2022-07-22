@@ -63,4 +63,4 @@ If you are at an airport, it is a good idea to get in line at your airline’s
 service counter; you can call the airline or Travel Inc. while waiting in line.
 
 Once you have contacted the airline or Travel Incorporated about any concerns and when you have time,
-please [email us](user-school@opensciencegrid.org) with any news especially if it changes your arrival day or time.
+please [email us](mailto:user-school@opensciencegrid.org) with any news especially if it changes your arrival day or time.
