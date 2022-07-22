@@ -38,6 +38,14 @@ View the slides
 - [Bonus Exercise 1.9: Explore `condor_status`](htcondor/part1-ex9-status.md)
 - [Bonus Exercise 1.10: A job that needs retries](htcondor/part3-ex10-job-retry.md)
 
+## Troubleshooting
+
+Slides will be posted here
+
+### Troubleshooting Exercises: 
+
+- [Exercise 1.1: Troubleshooting Jobs](troubleshooting/part1-ex1-troubleshooting.md)
+
 ## Software
 
 Slides will be posted here
