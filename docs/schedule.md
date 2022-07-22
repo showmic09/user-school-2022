@@ -470,3 +470,14 @@ The Union should be open, and so things like ice cream and beer will be availabl
     </tr>
   </tbody>
 </table>
+
+**Closing Dinner**
+
+*   **Location:** Union South (next to Computer Sciences), indoors/outdoors
+*   **Time:** 6:30&ndash;8:00 p.m., or until people leave
+
+We have scheduled a buffet dinner to wrap up the School.
+The buffet itself, and some tables, are inside.
+But if the weather is good, we will have easy access to outdoor space, too.
+For COVID safety, we encourage everyone to head outside with their food
+and to be careful when unmasked.
