@@ -233,7 +233,13 @@ The Union should be open, and so things like ice cream and beer will be availabl
     <tr>
         <td>11:15</td>
         <td>12:15</td>
-        <td>HTC Showcase, Part 1</td>
+        <td>
+          HTC Showcase, Part 1
+          <br>
+          &#9654; Ariana Negreiro; UW–Madison, Animal &amp; Dairy Sciences
+          <br>
+          &#9654; Edgar Spalding; UW–Madison, Botany
+        </td>
         <td></td>
     </tr>
     <tr>
