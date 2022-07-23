@@ -79,11 +79,11 @@ Slides will be posted here
 - [Exercise 4.1: Using Software in a Docker Container](software/part4-ex1-docker.md)
 - [Exercise 4.2: Building Your Own Docker Container (Beta)](software/part4-ex2-docker-build.md)
 
-<!-- COMMENTING EVERYTHING BELOW HERE, SO CONTENT OWNERS CAN UNCOMMENT AS THEY COMPLETE THINGS
-
 ## Data
 
-Slides will be posted here
+View the slides
+([PDF](data/files/osgus22-data.pdf),
+[PowerPoint](data/files/osgus22-data.pptx))
 
 ### Data Exercises 1: HTCondor File Transfer (Strongly Recommended)
 
@@ -101,8 +101,6 @@ Slides will be posted here
 
 - [Exercise 3.1: Shared filesystems for large input](data/part3-ex1-input.md)
 - [Exercise 3.2: Shared filesystems for large output](data/part3-ex2-output.md)
-
-SEE COMMENT INITIATION HIGHER ABOVE -->
 
 ## Extra Topics
 
