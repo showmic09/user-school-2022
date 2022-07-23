@@ -94,7 +94,7 @@ As you can see from the output, we are using HTCondor 9.11.0.
 
 ### FYI: Background information about HTCondor version numbers
 
-HTCondor always has two types of releases at one time: long-term-support (LTS) releases and feature releases. HTCondor 9.0.x is considered a LTS release, indicated by a 0 in the second digit. Within one LTS series, all versions have the same features (for example 9.0.5 and 9.0.10 have the same set of features) and differ only in bug and security fixes.
+HTCondor always has two types of releases at one time: long-term-support (LTS) releases and feature releases. HTCondor 9.0.x is considered an LTS release, indicated by a 0 in the second digit. Within one LTS series, all versions have the same features (for example 9.0.5 and 9.0.10 have the same set of features) and differ only in bug and security fixes.
 
 HTCondor 9.11.0 is the latest _feature_ release series of HTCondor. You know that this is a feature release because the second digit (i.e. 11) is greater than 0. CHTC is usually running the latest feature release as the local CHTC Pool is somewhat of a final testing ground for new features. Other HTCondor pools and submit servers that you use outside of CHTC (including the OSG submit server you'll use later) may run different versions. In general, the user-facing HTCondor features in 9.0 forward are mostly the same, but you may see some differences in the format of output from `condor_` commands or in more advanced or non-user features.
 
