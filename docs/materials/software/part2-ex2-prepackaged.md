@@ -101,7 +101,7 @@ Your interactive job should have started by now and we've learned about installi
 
 		:::console
 		username@host $ ls hmmer-build
-		bin lib
+		bin share
 
 1.  Now we want to package up our installation, so we can use it in other jobs. We can do this by compressing any necessary directories into a single gzipped tarball. 
 
@@ -129,7 +129,7 @@ Now that we've created our portable installation, we need to write a script that
 
 		tar -xzf hmmer-build.tar.gz
 
-1.  We're going to use the same `$(pwd)` trick from the installation in order to tell the computer how to find HMMER. We will do this by setting the `PATH` environment variable, to include the directory where HMMER is installed: 
+1.  We're going to use the same `$PWD` trick from the installation in order to tell the computer how to find HMMER. We will do this by setting the `PATH` environment variable, to include the directory where HMMER is installed: 
 
 		:::bash
 		export PATH=$PWD/hmmer-build/bin:$PATH
@@ -138,7 +138,7 @@ Now that we've created our portable installation, we need to write a script that
 
         :::bash
 		hmmbuild globins4.hmm globins4.sto
-		hmmsearch globins4.hmm globins45.fa -o search-results.txt
+		hmmsearch -o search-results.txt globins4.hmm globins45.fa 
 
 1.  Make sure the wrapper script has executable permissions: 
 
@@ -174,7 +174,7 @@ run the job. To access them, we'll unzip the HMMER download in our home director
 
 1.  Submit the job with `condor_submit`.
 
-1.  Once the job completes, it should produce a `results.txt` file.
+1.  Once the job completes, it should produce a `search-results.txt` file.
 
 	!!! note
 		For a very similar compiling example, see this guide on how to 
