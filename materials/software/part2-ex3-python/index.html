@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/user-school-2022/materials/software/part3-ex1-singularity/">
+        <link rel="canonical" href="https://osg-htc.org/user-school-2022/materials/software/part2-ex3-python/">
       
       <link rel="icon" href="../../../assets/OSG_Logo.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>Part3 ex1 singularity - OSG User School 2022</title>
+        <title>Part2 ex3 python - OSG User School 2022</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#software-exercise-31-use-singularity-from-osg-connect" class="md-skip">
+        <a href="#software-exercise-23-using-python-pre-built" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Part3 ex1 singularity
+              Part2 ex3 python
             
           </span>
         </div>
@@ -770,22 +770,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    Setup
+  <a href="#interactive-job-for-pre-building" class="md-nav__link">
+    Interactive Job for Pre-Building
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#default-environment" class="md-nav__link">
-    Default Environment
+  <a href="#python-script" class="md-nav__link">
+    Python Script
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#container-environment" class="md-nav__link">
-    Container Environment
+  <a href="#wrapper-script" class="md-nav__link">
+    Wrapper Script
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submit-file" class="md-nav__link">
+    Submit File
   </a>
   
 </li>
@@ -803,50 +810,183 @@
               
                 
                 
-                <style type="text/css"> pre em { font-style: normal; background-color: yellow; } pre strong { font-style: normal; font-weight: bold; color: \#008; } </style>
+                <style type="text/css"> pre em { font-style: normal; background-color: yellow; } pre strong { font-style: normal; font-weight: bold; color: #008; } </style>
 
-<h1 id="software-exercise-31-use-singularity-from-osg-connect">Software Exercise 3.1: Use Singularity from OSG Connect<a class="headerlink" href="#software-exercise-31-use-singularity-from-osg-connect" title="Permanent link">&para;</a></h1>
+<h1 id="software-exercise-23-using-python-pre-built">Software Exercise 2.3: Using Python, Pre-Built<a class="headerlink" href="#software-exercise-23-using-python-pre-built" title="Permanent link">&para;</a></h1>
+<p>In this exercise, you will install Python, package your installation, and then use it to run jobs. It should take about 20 minutes.</p>
 <h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
-<p>Containers are another way to manage software installations. This guide shows how to use pre-existing containers to run jobs on the OSG.</p>
-<p>One caveat for using containers: not all systems will support them. HTCondor has built-in features for using Docker and many OSG resources have Singularity installed, but they are not always available everywhere. </p>
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
-<p>Make sure you are logged into <code>login05.osgconnect.net</code> (the OSG Connect submit server for this workshop).  For this exercise we will be using Singularity containers that are hosted by OSG Connect. </p>
-<h2 id="default-environment">Default Environment<a class="headerlink" href="#default-environment" title="Permanent link">&para;</a></h2>
-<p>First, let's run a job without a container to see what the typical job environment is. </p>
+<p>We chose Python as the language for this example because: a) it is a common language used for scientific computing and b) it has a straightforward installation process and is fairly portable.</p>
+<p>Running any Python script requires an installation of the Python interpreter. The Python interpreter is what we're using when we type <code>python</code> at the command line. In order to run Python jobs on a distributed system, you will need to install the Python interpreter (what we often refer to as just "installing Python"), within the job, then run your Python script.</p>
+<p>There are two installation approaches. The approach we will cover in this exercise is that of "pre-building" the installation. We will install Python to a specific directory, and then create a tarball of that installation directory. We can then use our tarball within jobs to run Python scripts.</p>
+<h2 id="interactive-job-for-pre-building">Interactive Job for Pre-Building<a class="headerlink" href="#interactive-job-for-pre-building" title="Permanent link">&para;</a></h2>
+<p>The first step in our job process is building a Python installation that we can package up.</p>
 <ol>
+<li>Create a directory for this exercise on <code>learn.chtc.wisc.edu</code> and <code>cd</code> into it.</li>
 <li>
-<p>Create a bash script with the following lines: </p>
-<div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
-
-hostname
-cat /etc/os-release 
-gcc --version
+<p>Download the Python source code from <a href="https://www.python.org/">https://www.python.org/</a>. </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@learn $ </span>wget https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz
 </code></pre></div>
 
-<p>This will print out the version of Linux on the computer and the version 
-of <code>gcc</code>, a common software compiler. </p>
 </li>
 <li>
-<p>Copy a submit file from a previous OSG Connect job and edit it so that the 
-script you just wrote is the executable. </p>
+<p>Of our options - submit server, interactive job, personal computer - which should we use for this installation/packaging process? Once you have a guess, move to the next step.</p>
 </li>
 <li>
-<p>Submit the job and read the standard output file when it finishes. The output 
-should indicate that the job ran on "CentOS Linux" and the version of GCC will be <code>4.x</code>.</p>
+<p>Due to the number of people on our submit server, we shouldn't use the submit server. Your own computer probably doesn't have the right operating system. The best place to install will be an interactive job. For this job, we can use the same interactive submit file as Exercise 2.2, with one change. What is it?</p>
+</li>
+<li>
+<p>Make a copy of the interactive submit file from <a href="../part2-ex2-prepackaged">Exercise 2.2</a> and change the <code>transfer_input_files</code> line to the Python tarball you just downloaded. Then submit it using the <code>-i</code> flag. </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@learn $ </span>condor_submit -i build.submit
+</code></pre></div>
+
+</li>
+<li>
+<p>Once the interactive job begins, we can start our installation process. First, we have to determine how to install Python to a specific location in our working directory.</p>
+<ol>
+<li>Untar the Python source tarball and look at the <code>README.rst</code> file in the <code>Python-3.10.5</code> directory.  You'll want to look for the "Build Instructions" header.  What will the main installation steps be?  What command is required for the final installation?  Once you've tried to answer these questions, move to the next step.</li>
+<li>
+<p>There are some basic installation instructions near the top of the <code>README</code>. Based on that short introduction, we can see the main steps of installation will be: </p>
+<div class="codehilite"><pre><span></span><code>./configure
+make
+make test
+sudo make install
+</code></pre></div>
+
+<p>This three-stage process (configure, make, make install) is a common  way to install many software packages.   The default installation  location for Python requires <code>sudo</code> (administrative privileges) to install. However, we'd like to install to a specific location in the working directory  so that we can compress that installation directory into a tarball. </p>
+</li>
+<li>
+<p>You can often use an option called <code>-prefix</code> with the <code>configure</code> script to change the default installation directory. Let's see if the Python <code>configure</code> script has this option by using the "help" option (as suggested in the <code>README.rst</code> file): </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@host $ </span>./configure --help
+</code></pre></div>
+
+<p>Sure enough, there's a list of all the different options that can be passed to the <code>configure</code> script, which includes <code>--prefix</code>.  (To see the <code>--prefix</code> option, you may need to scroll towards the top of the output.)  Therefore, we can use the  <code>$PWD</code> command in order to set the path correctly to a custom installation directory. </p>
 </li>
 </ol>
-<h2 id="container-environment">Container Environment<a class="headerlink" href="#container-environment" title="Permanent link">&para;</a></h2>
-<p>Now, let's try running that same script inside a container. </p>
+</li>
+<li>
+<p>Now let's actually install Python!</p>
 <ol>
 <li>
-<p>For this job, we will use the OSG Connect Ubuntu "Xenial" image. The <code>+SingularityImage</code> submit file option will tell HTCondor to use this container: </p>
-<div class="codehilite"><pre><span></span><code>+SingularityImage = &quot;/cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-ubuntu-xenial:latest&quot;
+<p><strong>From the job's main working directory</strong>, create a directory to hold the installation. </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@host $ </span><span class="nb">cd</span> <span class="nv">$_CONDOR_SCRATCH_DIR</span>
+<span class="gp">username@host $ </span>mkdir python
 </code></pre></div>
 
 </li>
 <li>
-<p>Submit the job and look at the output file. You should see output that indicates 
-that the job was running on "Ubuntu" and has a newer version of GCC. </p>
+<p>Move into the <code>Python-3.10.5</code> directory and run the installation commands. These may take a few minutes each. </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@host $ </span><span class="nb">cd</span> Python-3.10.5
+<span class="gp">username@host $ </span>./configure --prefix<span class="o">=</span><span class="nv">$PWD</span>/../python
+<span class="gp">username@host $ </span>make
+<span class="gp">username@host $ </span>make install
+</code></pre></div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The installation instructions in the <code>README.rst</code> file have a <code>make test</code> step 
+between the <code>make</code> and <code>make install</code> steps.  As this step isn't strictly necessary (and takes a long time), it's been omitted above.  </p>
+</div>
+</li>
+<li>
+<p>If I move back to the main job working directory, and look in the <code>python</code> subdirectory, I should see a Python installation. </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@host $ </span><span class="nb">cd</span> ..
+<span class="gp">username@host $ </span>ls python/
+<span class="go">bin  include  lib  share</span>
+</code></pre></div>
+
+</li>
+<li>
+<p>I have successfully created a self-contained Python installation. Now it just needs to be tarred up! </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@host $ </span>tar -czf prebuilt_python.tar.gz python/
+</code></pre></div>
+
+</li>
+</ol>
+</li>
+<li>
+<p>Before exiting, we might want to know how we installed Python for later reference.  Enter the following commands to save our history to a file: </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@host $ </span><span class="nb">history</span> &gt; python_install.txt
+</code></pre></div>
+
+</li>
+<li>
+<p>Exit the interactive job. </p>
+<div class="codehilite"><pre><span></span><code><span class="gp">username@host $ </span><span class="nb">exit</span>
+</code></pre></div>
+
+</li>
+</ol>
+<h2 id="python-script">Python Script<a class="headerlink" href="#python-script" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Create a script with the following lines called <code>fib.py</code>. </p>
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Usage: </span><span class="si">%s</span><span class="s1"> MAXIMUM&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])))</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">maximum</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">n1</span> <span class="o">=</span> <span class="n">n2</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">n2</span> <span class="o">&lt;=</span> <span class="n">maximum</span><span class="p">:</span>
+    <span class="n">n1</span><span class="p">,</span> <span class="n">n2</span> <span class="o">=</span> <span class="n">n2</span><span class="p">,</span> <span class="n">n1</span> <span class="o">+</span> <span class="n">n2</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The greatest Fibonacci number up to </span><span class="si">%d</span><span class="s1"> is </span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">maximum</span><span class="p">,</span> <span class="n">n1</span><span class="p">))</span>
+</code></pre></div>
+
+</li>
+<li>
+<p>What command line arguments does this script take? Try running it on the submit server.</p>
+</li>
+</ol>
+<h2 id="wrapper-script">Wrapper Script<a class="headerlink" href="#wrapper-script" title="Permanent link">&para;</a></h2>
+<p>We now have our Python installation and our Python script - we just need to write a wrapper script to run them.</p>
+<ol>
+<li>What steps do you think the wrapper script needs to perform? Create a file called <code>run_fib.sh</code> and write them out in plain English before moving to the next step.</li>
+<li>Our script will need to<ol>
+<li>untar our <code>prebuilt_python.tar.gz</code> file</li>
+<li>access the <code>python</code> command from our installation to run our <code>fib.py</code> script</li>
+</ol>
+</li>
+<li>Try turning your plain English steps into commands that the computer can run.</li>
+<li>
+<p>Your final <code>run_fib.sh</code> script should look something like this: </p>
+<div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+
+tar -xzf prebuilt_python.tar.gz 
+python/bin/python3 fib.py <span class="m">90</span>
+</code></pre></div>
+
+<p>or</p>
+<div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+
+tar -xzf prebuilt_python.tar.gz 
+<span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>/python/bin:<span class="nv">$PATH</span> 
+python3 fib.py <span class="m">90</span>
+</code></pre></div>
+
+</li>
+<li>
+<p>Make sure your <code>run_fib.sh</code> script is executable.</p>
+</li>
+</ol>
+<h2 id="submit-file">Submit File<a class="headerlink" href="#submit-file" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Make a copy of a previous submit file in your local directory (the submit file from 
+the <a href="../part1-ex2-wrapper">Use a Wrapper Script exercise</a> might be a good candidate). What changes need to be made to run this Python job? </p>
+</li>
+<li>
+<p>Modify your submit file, then make sure you've included the key lines below: </p>
+<div class="codehilite"><pre><span></span><code>executable = run_fib.sh
+transfer_input_files = fib.py, prebuilt_python.tar.gz
+</code></pre></div>
+
+</li>
+<li>
+<p>Submit the job using <code>condor_submit</code>. </p>
+</li>
+<li>
+<p>Check the <code>.out</code> file to see if the job completed.</p>
 </li>
 </ol>
                 

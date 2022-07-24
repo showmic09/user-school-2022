@@ -827,7 +827,13 @@ searches will lead you to a BLAST website page that looks like this:</p>
 <p>Click on the title that says <a href="../files/part1-ex1-blast-front-page.png">"Download
 BLAST"</a> and then look for the
 link that has the <a href="../files/part1-ex1-blast-dl-page.png">latest installation and source
-code</a>.  You should end up on a
+code</a>.  </p>
+<p>This will either open a page in a web browser that looks like this: </p>
+<p><img alt="Download page" src="../files/part1-ex1-blast-dl-list.png" /></p>
+<p>Or you will be asked to open the link in your file browser (choose the 
+Connect as Guest option): </p>
+<p><img alt="Download Folder" src="../files/part1-ex1-blast-dl-folder.png" /></p>
+<p>In either case, you should end up on a
 page with a list of each version of BLAST that is available for
 different operating systems.</p>
 </li>
@@ -839,17 +845,18 @@ look at the list of downloads and try to determine which one you want.</strong><
 <li>
 <p>Based on our operating system, we want to use the Linux binary,
 which is labelled with the <code>x64-linux</code> suffix. </p>
-<p><img alt="BLAST downloads" src="../files/part1-ex1-blast-src-page.png" /></p>
+<p><img alt="BLAST download page" src="../files/part1-ex1-blast-dl-list-linux.png" /></p>
+<p><img alt="BLAST download folder" src="../files/part1-ex1-blast-dl-folder-linux.png" /></p>
 <p>All the other links are either for source code or other operating
 systems. </p>
 </li>
 <li>
-<p>While logged into <code>login04.osgconnect.net</code>, create a directory for
+<p>While logged into <code>login05.osgconnect.net</code>, create a directory for
 this exercise. Then download the appropriate <code>tar.gz</code> file and un-tar/decompress it
 it. If you want to do this all from the command line, the sequence will 
 look like this (using <code>wget</code> as the download command.) </p>
-<div class="codehilite"><pre><span></span><code><span class="gp">user@login $ </span>wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.12.0+-x64-linux.tar.gz
-<span class="gp">user@login $ </span>tar -xzf ncbi-blast-2.12.0+-x64-linux.tar.gz
+<div class="codehilite"><pre><span></span><code><span class="gp">user@login $ </span>wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST//ncbi-blast-2.13.0+-x64-linux.tar.gz
+<span class="gp">user@login $ </span>tar -xzf ncbi-blast-2.13.0+-x64-linux.tar.gz
 </code></pre></div>
 
 </li>
@@ -915,7 +922,7 @@ job.</p>
 <p>The executable is <code>blastx</code>, which is located in the <code>bin</code>
 directory of our downloaded BLAST directory. We need to use the
 <code>arguments</code> line in the submit file to express the rest of the command. </p>
-<div class="codehilite"><pre><span></span><code>executable = ncbi-blast-2.12.0+/bin/blastx
+<div class="codehilite"><pre><span></span><code>executable = ncbi-blast-2.13.0+/bin/blastx
 arguments = -db pdbaa/pdbaa -query mouse.fa -out results.txt
 </code></pre></div>
 
