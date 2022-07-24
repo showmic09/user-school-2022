@@ -138,7 +138,7 @@ Now that we've created our portable installation, we need to write a script that
 
         :::bash
 		hmmbuild globins4.hmm globins4.sto
-		hmmsearch globins4.hmm globins45.fa
+		hmmsearch globins4.hmm globins45.fa -o search-results.txt
 
 1.  Make sure the wrapper script has executable permissions: 
 
