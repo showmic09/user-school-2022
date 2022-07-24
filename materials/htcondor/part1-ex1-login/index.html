@@ -835,14 +835,14 @@ Copy-and-paste is fine, of course, but <strong>you WILL learn more if you take t
 <h2 id="showing-the-version-of-htcondor">Showing the Version of HTCondor<a class="headerlink" href="#showing-the-version-of-htcondor" title="Permanent link">&para;</a></h2>
 <p>HTCondor is installed on this server. But what version? You can ask HTCondor itself:</p>
 <div class="codehilite"><pre><span></span><code><span class="gp">username@learn $ </span>condor_version
-<span class="gp">$</span>CondorVersion: <span class="m">8</span>.9.8 Jun <span class="m">29</span> <span class="m">2020</span> BuildID: <span class="m">508520</span> PackageID: <span class="m">8</span>.9.8-0.508520 $
+<span class="gp">$</span>CondorVersion: <span class="m">9</span>.11.0 <span class="m">2022</span>-07-19 BuildID: <span class="m">597572</span> PackageID: <span class="m">9</span>.11.0-0.597572 RC $
 <span class="gp">$</span>CondorPlatform: x86_64_CentOS7 $
 </code></pre></div>
 
-<p>As you can see from the output, we are using HTCondor 8.9.8.</p>
+<p>As you can see from the output, we are using HTCondor 9.11.0.</p>
 <h3 id="fyi-background-information-about-htcondor-version-numbers">FYI: Background information about HTCondor version numbers<a class="headerlink" href="#fyi-background-information-about-htcondor-version-numbers" title="Permanent link">&para;</a></h3>
-<p>HTCondor always has two types of releases at one time: stable and development. HTCondor 8.6.x and 8.8.x are considered stable releases, indicated by even-numbered second digits (e.g., 6 or 8 in these cases). Within one stable series, all versions have the same features (for example 8.6.0 and 8.6.8 have the same set of features) and differ only in bug and security fixes.</p>
-<p>HTCondor 8.9.8 is the latest <em>development</em> release series of HTCondor. You know that these are a development release because the second digit (i.e., 9) is an odd number. CHTC is usually running the latest development series as the local CHTC Pool is somewhat of a final testing ground for new features. Other HTCondor pools and submit servers that you use outside of CHTC (including the OSG submit server you'll use later) may run different versions. In general, the user-facing HTCondor features in 8.6 forward are mostly the same, but you may see some differences in the format of output from <code>condor_</code> commands or in more advanced or non-user features.</p>
+<p>HTCondor always has two types of releases at one time: long-term-support (LTS) releases and feature releases. HTCondor 9.0.x is considered an LTS release, indicated by a 0 in the second digit. Within one LTS series, all versions have the same features (for example 9.0.5 and 9.0.10 have the same set of features) and differ only in bug and security fixes.</p>
+<p>HTCondor 9.11.0 is the latest <em>feature</em> release series of HTCondor. You know that this is a feature release because the second digit (i.e. 11) is greater than 0. CHTC is usually running the latest feature release as the local CHTC Pool is somewhat of a final testing ground for new features. Other HTCondor pools and submit servers that you use outside of CHTC (including the OSG submit server you'll use later) may run different versions. In general, the user-facing HTCondor features in 9.0 forward are mostly the same, but you may see some differences in the format of output from <code>condor_</code> commands or in more advanced or non-user features.</p>
 <h2 id="reference-materials">Reference Materials<a class="headerlink" href="#reference-materials" title="Permanent link">&para;</a></h2>
 <p>Here are a few links to reference materials that might be interesting after the school (or perhaps during).</p>
 <ul>
