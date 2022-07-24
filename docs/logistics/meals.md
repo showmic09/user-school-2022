@@ -13,7 +13,7 @@ First, we provide the following meals directly:
 -   Lunches on Monday through Friday — held near the lecture hall
 -   Generally, there will be coffee and packets for tea
 
-For dinners Monday through Thursday, **if you are not a UW&ndash;Madison member**,
+For dinners Sunday through Thursday, **if you are not a UW&ndash;Madison member**,
 we can reimburse you after the School.
 In that case:
 
