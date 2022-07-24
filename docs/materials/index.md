@@ -59,9 +59,11 @@ Slides will be posted here
 ### Software Exercises 2: Specific Software Examples (Pick Two)
 
 - [Exercise 2.1: Compiling and Running a Simple Code](software/part2-ex1-compiling.md)
+
 <!-- still working on 
 - [Exercise 2.2: Compiling a Research Software](software/part2-ex2-prepackaged.md)
 --> 
+
 - [Exercise 2.3: Compiling Python and Running Jobs](software/part2-ex3-python.md)
 - [Exercise 2.4: Compiling Matlab and Running Jobs](software/part2-ex4-matlab.md)
 - [Exercise 2.5: Using Conda Environments](software/part2-ex5-conda.md)
