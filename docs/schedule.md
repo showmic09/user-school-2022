@@ -7,8 +7,11 @@ but the overall plan here is accurate.
 
 **Welcome social gathering for participants and staff**
 
-*   **Location:** Memorial Union (800 Langdon St), outdoors;
-    more exact location will be posted Sunday&nbsp;&mdash; please check back here!
+*   **Location:** Memorial Union (800 Langdon St).
+    Facing the lake, go to the right along the path;
+    near the Alumni Center, there is a concrete oval; we will meet there.
+    [This link may help get very close](https://what3words.com/basis.mouse.trade),
+    but note that the satellite view is outdated.
 *   **Time:** 7:00&ndash;8:00 p.m., or until people leave
 *   **Masks:** Optional, assuming we can stay outdoors and a bit spaced out
 
