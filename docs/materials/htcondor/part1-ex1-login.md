@@ -77,17 +77,17 @@ HTCondor is installed on this server. But what version? You can ask HTCondor its
 
 ``` console
 username@learn $ condor_version
-$CondorVersion: 8.9.8 Jun 29 2020 BuildID: 508520 PackageID: 8.9.8-0.508520 $
+$CondorVersion: 9.11.0 2022-07-19 BuildID: 597572 PackageID: 9.11.0-0.597572 RC $
 $CondorPlatform: x86_64_CentOS7 $
 ```
 
-As you can see from the output, we are using HTCondor 8.9.8.
+As you can see from the output, we are using HTCondor 9.11.0.
 
 ### FYI: Background information about HTCondor version numbers
 
-HTCondor always has two types of releases at one time: stable and development. HTCondor 8.6.x and 8.8.x are considered stable releases, indicated by even-numbered second digits (e.g., 6 or 8 in these cases). Within one stable series, all versions have the same features (for example 8.6.0 and 8.6.8 have the same set of features) and differ only in bug and security fixes.
+HTCondor always has two types of releases at one time: long-term-support (LTS) releases and feature releases. HTCondor 9.0.x is considered an LTS release, indicated by a 0 in the second digit. Within one LTS series, all versions have the same features (for example 9.0.5 and 9.0.10 have the same set of features) and differ only in bug and security fixes.
 
-HTCondor 8.9.8 is the latest _development_ release series of HTCondor. You know that these are a development release because the second digit (i.e., 9) is an odd number. CHTC is usually running the latest development series as the local CHTC Pool is somewhat of a final testing ground for new features. Other HTCondor pools and submit servers that you use outside of CHTC (including the OSG submit server you'll use later) may run different versions. In general, the user-facing HTCondor features in 8.6 forward are mostly the same, but you may see some differences in the format of output from `condor_` commands or in more advanced or non-user features.
+HTCondor 9.11.0 is the latest _feature_ release series of HTCondor. You know that this is a feature release because the second digit (i.e. 11) is greater than 0. CHTC is usually running the latest feature release as the local CHTC Pool is somewhat of a final testing ground for new features. Other HTCondor pools and submit servers that you use outside of CHTC (including the OSG submit server you'll use later) may run different versions. In general, the user-facing HTCondor features in 9.0 forward are mostly the same, but you may see some differences in the format of output from `condor_` commands or in more advanced or non-user features.
 
 Reference Materials
 -------------------
