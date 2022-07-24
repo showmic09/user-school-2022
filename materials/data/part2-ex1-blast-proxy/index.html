@@ -1,0 +1,1154 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://osg-htc.org/user-school-2022/materials/data/part2-ex1-blast-proxy/">
+      
+      <link rel="icon" href="../../../assets/OSG_Logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
+    
+    
+      
+        <title>Exercise 2.1 - OSG User School 2022</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.33e2939f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/code-highlight.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/osg.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-exercise-21-using-a-web-proxy-for-large-shared-input" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="OSG User School 2022" class="md-header__button md-logo" aria-label="OSG User School 2022" data-md-component="logo">
+      
+  <img src="../../../assets/OSG_Logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSG User School 2022
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Exercise 2.1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="OSG User School 2022" class="md-nav__button md-logo" aria-label="OSG User School 2022" data-md-component="logo">
+      
+  <img src="../../../assets/OSG_Logo.svg" alt="logo">
+
+    </a>
+    OSG User School 2022
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../schedule/" class="md-nav__link">
+        Schedule
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../covid-policy/" class="md-nav__link">
+        COVID policy
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Logistics
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Logistics" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Logistics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/" class="md-nav__link">
+        General information
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      <label class="md-nav__link" for="__nav_4_2">
+        Travel
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Travel" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Travel
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/travel-advice/" class="md-nav__link">
+        Advice
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/local-transportation/" class="md-nav__link">
+        Local transportation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/travel/" class="md-nav__link">
+        Travel planning
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/travel-form/" class="md-nav__link">
+        Travel Inc form tips
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/visas/" class="md-nav__link">
+        Visa requirements
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/hotel/" class="md-nav__link">
+        Hotel information
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/location/" class="md-nav__link">
+        School location
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/meals/" class="md-nav__link">
+        Meals at the School
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logistics/fun/" class="md-nav__link">
+        Fun activities
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5">
+        Materials
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Materials" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Materials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      <label class="md-nav__link" for="__nav_5_2">
+        HTC Exercises
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="HTC Exercises" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          HTC Exercises
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex1-login/" class="md-nav__link">
+        Exercise 1.1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex2-commands/" class="md-nav__link">
+        Exercise 1.2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex3-jobs/" class="md-nav__link">
+        Exercise 1.3
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex4-logs/" class="md-nav__link">
+        Exercise 1.4
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex5-request/" class="md-nav__link">
+        Exercise 1.5
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex6-remove/" class="md-nav__link">
+        Exercise 1.6
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex7-compile/" class="md-nav__link">
+        Bonus Exercise 1.7
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex8-queue/" class="md-nav__link">
+        Bonus Exercise 1.8
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex9-status/" class="md-nav__link">
+        Bonus Exercise 1.9
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../htcondor/part1-ex10-job-retry/" class="md-nav__link">
+        Bonus Exercise 1.10
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" checked>
+      
+      <label class="md-nav__link" for="__nav_5_3">
+        Data Exercises
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Data Exercises" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Data Exercises
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part1-ex1-data-needs/" class="md-nav__link">
+        Exercise 1.1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part1-ex2-file-transfer/" class="md-nav__link">
+        Exercise 1.2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part1-ex3-blast-split/" class="md-nav__link">
+        Exercise 1.3
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Exercise 2.1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Exercise 2.1
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#place-the-large-file-on-the-proxy" class="md-nav__link">
+    Place the Large File on the Proxy
+  </a>
+  
+    <nav class="md-nav" aria-label="Place the Large File on the Proxy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#test-a-download-of-the-file" class="md-nav__link">
+    Test a download of the file
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-a-new-test-job" class="md-nav__link">
+    Run a New Test Job
+  </a>
+  
+    <nav class="md-nav" aria-label="Run a New Test Job">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modify-the-submit-file-and-wrapper-script" class="md-nav__link">
+    Modify the submit file and wrapper script
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#submit-the-test-job" class="md-nav__link">
+    Submit the test job
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-htcondor-to-do-the-wget-for-you" class="md-nav__link">
+    Get HTCondor to do the wget for you!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-all-100-jobs" class="md-nav__link">
+    Run all 100 Jobs!
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part2-ex2-stash-shared/" class="md-nav__link">
+        Exercise 2.2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part2-ex3-stash-unique/" class="md-nav__link">
+        Exercise 2.3
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3-ex1-input/" class="md-nav__link">
+        Bonus Exercise 3.1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part3-ex2-output/" class="md-nav__link">
+        Bonus Exercise 3.2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      <label class="md-nav__link" for="__nav_5_4">
+        Checkpointing Exercises
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Checkpointing Exercises" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Checkpointing Exercises
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checkpoint/part1-ex1-checkpointing/" class="md-nav__link">
+        Exercise 1.1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#place-the-large-file-on-the-proxy" class="md-nav__link">
+    Place the Large File on the Proxy
+  </a>
+  
+    <nav class="md-nav" aria-label="Place the Large File on the Proxy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#test-a-download-of-the-file" class="md-nav__link">
+    Test a download of the file
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-a-new-test-job" class="md-nav__link">
+    Run a New Test Job
+  </a>
+  
+    <nav class="md-nav" aria-label="Run a New Test Job">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modify-the-submit-file-and-wrapper-script" class="md-nav__link">
+    Modify the submit file and wrapper script
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#submit-the-test-job" class="md-nav__link">
+    Submit the test job
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-htcondor-to-do-the-wget-for-you" class="md-nav__link">
+    Get HTCondor to do the wget for you!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-all-100-jobs" class="md-nav__link">
+    Run all 100 Jobs!
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="data-exercise-21-using-a-web-proxy-for-large-shared-input">Data Exercise 2.1: Using a Web Proxy for Large Shared Input<a class="headerlink" href="#data-exercise-21-using-a-web-proxy-for-large-shared-input" title="Permanent link">&para;</a></h1>
+<p>Continuing the series of exercises blasting mouse genetic sequences, the objective of this exercise is to use a web
+proxy to stage the large database, which will be downloaded into each of many jobs that use the split input files from
+the last exercise (Exercise 1.3).</p>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Make sure you are logged into <code>login04.osgconnect.net</code></li>
+<li>Make sure you are in the same directory as the previous exercise,
+    <a href="../part1-ex3-blast-split/">Exercise 1.3</a> directory named <code>blast-split</code>.</li>
+</ul>
+<h2 id="place-the-large-file-on-the-proxy">Place the Large File on the Proxy<a class="headerlink" href="#place-the-large-file-on-the-proxy" title="Permanent link">&para;</a></h2>
+<p>First, you'll need to put the <code>pdbaa_files.tar.gz</code> file onto the Stash web directory. Use the following command:</p>
+<div class="codehilite"><pre><span></span><code><span class="gp">user@login04 $ </span>cp pdbaa_files.tar.gz /public/&lt;USERNAME&gt;
+</code></pre></div>
+
+<p>Replacing <code>&lt;USERNAME&gt;</code> with your username</p>
+<h3 id="test-a-download-of-the-file">Test a download of the file<a class="headerlink" href="#test-a-download-of-the-file" title="Permanent link">&para;</a></h3>
+<p>Once the file is placed in your <code>/public</code> directory, it can be downloaded from a corresponding URL such as
+<code>http://stash.osgconnect.net/public/&lt;USERNAME&gt;/pdbaa_files.tar.gz</code>, where <code>&lt;USERNAME&gt;</code> is your username on
+<code>login04.osgconnect.net</code>.</p>
+<p>Using the above convention (and from a different directory on <code>login04.osgconnect.net</code>, any directory), you can test
+the download of your <code>pdbaa_files.tar.gz</code> file with a command like the following:</p>
+<div class="codehilite"><pre><span></span><code><span class="gp">user@login04 $ </span>wget http://stash.osgconnect.net/public/&lt;USERNAME&gt;/pdbaa_files.tar.gz
+</code></pre></div>
+
+<p>Again, replacing <code>&lt;USERNAME&gt;</code> with your own username.
+You may realize that you've been using <code>wget</code> to download files from a web proxy for many of the previous exercises at
+the school!</p>
+<h2 id="run-a-new-test-job">Run a New Test Job<a class="headerlink" href="#run-a-new-test-job" title="Permanent link">&para;</a></h2>
+<p>Now, you'll repeat the last exercise (with a single input query file) but have HTCondor download the
+<code>pdbaa_files.tar.gz</code> file from the web proxy, instead of having the file transferred from the submit server.</p>
+<h3 id="modify-the-submit-file-and-wrapper-script">Modify the submit file and wrapper script<a class="headerlink" href="#modify-the-submit-file-and-wrapper-script" title="Permanent link">&para;</a></h3>
+<p>In the wrapper script, we have to add some special lines so that we can pull from the HTTP proxy and see where they are coming from.
+Normally, we would let HTCondor do the HTTP transfer, but we want to see the download and to see where it came from.
+In <code>blast_wrapper.sh</code>, we will have to add commands to pull the data file:</p>
+<div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+
+<span class="c1"># Set the http_proxy environment which wget uses</span>
+<span class="hll"><span class="nb">export</span> <span class="nv">http_proxy</span><span class="o">=</span><span class="nv">$OSG_SQUID_LOCATION</span>
+</span>
+<span class="c1"># Copy the pdbaa_files.tar.gz to the worker node</span>
+<span class="c1"># Add the -S argument, so we can see if it was a cache HIT or MISS</span>
+<span class="hll">wget -S http://stash.osgconnect.net/public/&lt;USERNAME&gt;/pdbaa_files.tar.gz
+</span>
+tar xvzf pdbaa_files.tar.gz
+
+./blastx -db pdbaa -query <span class="nv">$1</span> -out <span class="nv">$1</span>.result
+
+<span class="hll">rm pdbaa*
+</span></code></pre></div>
+
+<p>Be sure to replace <code>&lt;USERNAME&gt;</code> with your own username.</p>
+<p>The new line will download the <code>pdbaa_files.tar.gz</code> from the HTTP proxy, using the closest cache (because <code>wget</code> will
+look at the environment variable <code>http_proxy</code> for the newest cache).</p>
+<p>Also notice the final line of the wrapper script has been modified to delete the pdbaa data files as well as the pdbaa_files.tar.gz file so that it will not be transferred back to the submit server when the job finishes.</p>
+<p>In your submit file, you will need to remove the <code>pdbaa_files.tar.gz</code> file from the <code>transfer_input_files</code>, because we
+are now transferring the tarball via the <code>wget</code> command in our wrapper script. </p>
+<h3 id="submit-the-test-job">Submit the test job<a class="headerlink" href="#submit-the-test-job" title="Permanent link">&para;</a></h3>
+<p>You may wish to first remove the log, result, output, and error files from the previous tests, which will be overwritten
+when the new test job completes.</p>
+<div class="codehilite"><pre><span></span><code><span class="gp">user@login04 $ </span>rm *.err *.out *.result *.log
+</code></pre></div>
+
+<p>Submit a single test job!  (If your submit file uses a <code>queue .. matching</code> statement, a simple way to submit a single job is to temporarily change it to <code>queue inputfile matching mouse_rna.fa.1</code>.</p>
+<p>When the job starts, the wrapper will download the <code>pdbaa_files.tar.gz</code> file from the web proxy.
+If the jobs takes longer than two minutes, you can assume that it will complete successfully, and then continue with the
+rest of the exercise.</p>
+<p>After the job completes examine the error file generated by the submission.
+At the top of the file, you will find something like:</p>
+<div class="codehilite"><pre><span></span><code>--2021-07-23 <span class="m">10</span>:35:51--  http://stash.osgconnect.net/public/dweitzel/pdbaa_files.tar.gz
+Resolving iitgrid.iit.edu <span class="o">(</span>iitgrid.iit.edu<span class="o">)</span>... <span class="m">216</span>.47.155.220
+Connecting to iitgrid.iit.edu <span class="o">(</span>iitgrid.iit.edu<span class="o">)</span><span class="p">|</span><span class="m">216</span>.47.155.220<span class="p">|</span>:3128... connected.
+Proxy request sent, awaiting response... 
+  HTTP/1.1 <span class="m">200</span> OK
+  Server: nginx/1.16.1
+  Content-Type: application/octet-stream
+  Content-Length: <span class="m">22105180</span>
+  Last-Modified: Fri, <span class="m">23</span> Jul <span class="m">2021</span> <span class="m">14</span>:27:49 GMT
+  ETag: <span class="s2">&quot;60fad1e5-1514c5c&quot;</span>
+  Accept-Ranges: bytes
+  Age: <span class="m">0</span>
+  Date: Fri, <span class="m">23</span> Jul <span class="m">2021</span> <span class="m">15</span>:35:51 GMT
+  X-Cache: HIT from iitgrid.iit.edu
+  Via: <span class="m">1</span>.1 iitgrid.iit.edu <span class="o">(</span>squid/frontier-squid-4.10-2.1<span class="o">)</span>
+  Connection: close
+Length: <span class="m">22105180</span> <span class="o">(</span>21M<span class="o">)</span> <span class="o">[</span>application/octet-stream<span class="o">]</span>
+Saving to: <span class="s1">&#39;pdbaa_files.tar.gz.1&#39;</span>
+...
+</code></pre></div>
+
+<p>Notice the <code>X-Cache</code> line. It says it was a cache HIT from the proxy <code>iitgrid.iit.edu</code>.
+Yay! You successfully used a proxy to cache data near your worker node! Notice, the name of the cache may be different, and 
+it may be a MISS the first time you request the data from the cache.</p>
+<h2 id="get-htcondor-to-do-the-wget-for-you">Get HTCondor to do the wget for you!<a class="headerlink" href="#get-htcondor-to-do-the-wget-for-you" title="Permanent link">&para;</a></h2>
+<p>The <code>transfer_input_files</code> command in the submit file can also be an HTTP address.  Instead of using <code>wget</code>
+in your <code>blast_wrapper.sh</code> file, remove it and add the HTTP address to the <code>transfer_input_files</code> line in your <code>blast_split.sub</code></p>
+<div class="codehilite"><pre><span></span><code>executable = blast_wrapper.sh
+transfer_input_files = blastx, $(inputfile), http://stash.osgconnect.net/public/&lt;USERNAME&gt;/pdbaa_files.tar.gz
+output = $(inputfile).out
+...
+</code></pre></div>
+
+<h2 id="run-all-100-jobs">Run all 100 Jobs!<a class="headerlink" href="#run-all-100-jobs" title="Permanent link">&para;</a></h2>
+<p>If all of the previous tests have gone okay, you can prepare to run all 100 jobs that will use the split input files.
+To make sure you're not going to generate too much data, use the size of files from the previous test to calculate how
+much total data you're going to add to the <code>blast-split</code> directory for 100 jobs.</p>
+<p>Make sure you remove <code>pdbaa_files.tar.gz</code> from the <code>transfer_input_files</code> in the <em>split</em> submit file.</p>
+<p>Submit all 100 jobs!
+They may take a while to all complete, but it will still be faster than the many hours it would have taken to blast the
+single, large <code>mouse_rna.fa</code> file without splitting it up.
+In the meantime, as long as the first several jobs are running for longer than two minutes, you can move on to the <a href="../part2-ex2-stash-shared">next
+exercise</a></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../part1-ex3-blast-split/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Exercise 1.3
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../part2-ex2-stash-shared/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Exercise 2.2
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+      <a href="https://twitter.com/OSGUserSchool" target="_blank" rel="noopener" title="OSG User School on Twitter" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+      
+      
+      <a href="https://www.facebook.com/OSGUserSchool" target="_blank" rel="noopener" title="OSG User School on Facebook" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d892486b.min.js"></script>
+      
+    
+  </body>
+</html>
