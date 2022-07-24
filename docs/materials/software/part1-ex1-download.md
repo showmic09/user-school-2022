@@ -33,9 +33,20 @@ searches will lead you to a BLAST website page that looks like this:
 1.  Click on the title that says ["Download
 BLAST"](../files/part1-ex1-blast-front-page.png) and then look for the
 link that has the [latest installation and source
-code](../files/part1-ex1-blast-dl-page.png).  You should end up on a
-page with a list of each version of BLAST that is available for
-different operating systems.
+code](../files/part1-ex1-blast-dl-page.png).  
+
+	This will either open a page in a web browser that looks like this: 
+	
+	![Download page](../files/part1-ex1-blast-dl-list.png)
+
+	Or you will be asked to open the link in your file browser (choose the 
+	Connect as Guest option): 
+	
+	![Download Folder](../files/part1-ex1-blast-dl-folder.png)
+
+	In either case, you should end up on a
+	page with a list of each version of BLAST that is available for
+	different operating systems.
 
 1.  We could download the source and compile it ourselves, but instead,
 we're going to use one of the pre-built binaries.  **Before proceeding,
@@ -44,19 +55,21 @@ look at the list of downloads and try to determine which one you want.**
 1.  Based on our operating system, we want to use the Linux binary,
 which is labelled with the `x64-linux` suffix. 
 
-	![BLAST downloads](../files/part1-ex1-blast-src-page.png)
+	![BLAST download page](../files/part1-ex1-blast-dl-list-linux.png)
+
+	![BLAST download folder](../files/part1-ex1-blast-dl-folder-linux.png)
 
 	All the other links are either for source code or other operating
 systems. 
 	
-1. While logged into `login04.osgconnect.net`, create a directory for
+1. While logged into `login05.osgconnect.net`, create a directory for
 this exercise. Then download the appropriate `tar.gz` file and un-tar/decompress it
 it. If you want to do this all from the command line, the sequence will 
 look like this (using `wget` as the download command.) 
 
         :::console
-        user@login $ wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.12.0+-x64-linux.tar.gz
-        user@login $ tar -xzf ncbi-blast-2.12.0+-x64-linux.tar.gz
+        user@login $ wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST//ncbi-blast-2.13.0+-x64-linux.tar.gz
+        user@login $ tar -xzf ncbi-blast-2.13.0+-x64-linux.tar.gz
 
 1.  We're going to be using the `blastx` binary in our job. Where is it
 in the directory you just decompressed?
@@ -116,7 +129,7 @@ directory of our downloaded BLAST directory. We need to use the
 `arguments` line in the submit file to express the rest of the command. 
     
             :::file
-            executable = ncbi-blast-2.12.0+/bin/blastx
+            executable = ncbi-blast-2.13.0+/bin/blastx
             arguments = -db pdbaa/pdbaa -query mouse.fa -out results.txt
 
     * The BLAST program requires our input file and database, so they

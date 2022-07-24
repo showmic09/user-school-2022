@@ -59,20 +59,20 @@ Slides will be posted here
 ### Software Exercises 2: Specific Software Examples (Pick Two)
 
 - [Exercise 2.1: Compiling and Running a Simple Code](software/part2-ex1-compiling.md)
+
 <!-- still working on 
 - [Exercise 2.2: Compiling a Research Software](software/part2-ex2-prepackaged.md)
-- [Exercise 2.3: Compiling Python and Running Jobs](software/part2-ex3-python.md)
 --> 
 
+- [Exercise 2.3: Compiling Python and Running Jobs](software/part2-ex3-python.md)
 - [Exercise 2.4: Compiling Matlab and Running Jobs](software/part2-ex4-matlab.md)
-- [Exercise 2.5: Using Conda Environments (Beta)](software/part2-ex5-conda.md)
+- [Exercise 2.5: Using Conda Environments](software/part2-ex5-conda.md)
 
 ### Software Exercises 3: Using Containers in Jobs (Strongly Recommended)
 
 - [Exercise 3.1: Using Software in a Singularity Container](software/part3-ex1-singularity.md)
-<!-- still working on 
+still working on 
 - [Exercise 3.2: Singularity Examples on OSG Connect](software/part3-ex2-singularity-options.md)
---> 
 
 ### Bonus Exercises: More With Containers
 
