@@ -42,7 +42,8 @@ Slides will be posted here.
 
 ## Troubleshooting
 
-Slides will be posted here
+([PDF](troubleshooting/files/osgus22-htc-troubleshooting.pdf),
+[PowerPoint](htcondor/files/osgus22-htc-troubleshooting.pptx))
 
 ### Troubleshooting Exercises: 
 
