@@ -58,6 +58,10 @@ nav:
       - Bonus Exercise 1.8:         materials/htcondor/part1-ex8-queue.md
       - Bonus Exercise 1.9:         materials/htcondor/part1-ex9-status.md
       - Bonus Exercise 1.10:        materials/htcondor/part1-ex10-job-retry.md
+      - Exercise 2.1:               materials/htcondor/part2-ex1-files.md
+      - Exercise 2.2:               materials/htcondor/part2-ex2-queue-n.md
+      - Exercise 2.3:               materials/htcondor/part2-ex3-queue-from.md
+      - Exercise 2.4:               materials/htcondor/part2-ex4-queue-matching.md 
     - Software Exercises:
       - Exercise 1.1:               materials/software/part1-ex1-download.md
       - Exercise 1.2:               materials/software/part1-ex2-wrapper.md
