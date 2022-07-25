@@ -62,6 +62,9 @@ nav:
       - Exercise 2.2:               materials/htcondor/part2-ex2-queue-n.md
       - Exercise 2.3:               materials/htcondor/part2-ex3-queue-from.md
       - Exercise 2.4:               materials/htcondor/part2-ex4-queue-matching.md 
+    - Troubleshooting Exercises:
+      - Exercise 1.1:               materials/troubleshooting/part1-ex1-troubleshooting.md
+      - Exercise 1.2:               materials/troubleshooting/part1-ex2-job-retry.md
     - Software Exercises:
       - Exercise 1.1:               materials/software/part1-ex1-download.md
       - Exercise 1.2:               materials/software/part1-ex2-wrapper.md
