@@ -14,7 +14,7 @@ The goal of this first exercise is simply to log in to the local submit server a
 Logging In
 ----------
 
-Today, you will use a CHTC's local HTC Pool via an access point named `learn.chtc.wisc.edu` using the UW NetID account you set up. (This account is separate from the account you set up for the OSG Connect service, which you'll use starting tomorrow to run on OSG's Open Science Pool.)
+Today, you will use CHTC's local HTC Pool via an access point named `learn.chtc.wisc.edu` using the UW NetID account you set up. (This account is separate from the account you set up for the OSG Connect service, which you'll use starting tomorrow to run on OSG's Open Science Pool.)
 
 To log in, use a [Secure Shell](http://en.wikipedia.org/wiki/Secure_Shell) (SSH) client.
 
