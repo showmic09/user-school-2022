@@ -22,14 +22,6 @@ View the slides
 - [Exercise 1.5: Determining Resource Needs](htcondor/part1-ex5-request.md)
 - [Exercise 1.6: Remove jobs from the queue](htcondor/part1-ex6-remove.md)
 
-<!-- From 2021, but needs to be moved to later in day 1!!
-### Intro Exercises 2: Running Many HTC Jobs (Strongly Recommended)
-
-- [Exercise 2.1: Work with input and output files](htcondor/part2-ex1-files.md)
-- [Exercise 2.2: Use `queue N`, `$(Cluster)`, and `$(Process)`](htcondor/part2-ex2-queue-n.md)
-- [Exercise 2.3: Use `queue from` with custom variables](htcondor/part2-ex3-queue-from.md)
-- [Bonus Exercise 2.4: Use `queue matching` with a custom variable](htcondor/part2-ex4-queue-matching.md)
--->
 
 ### Bonus Exercises: Job Attributes and Handling
 
@@ -37,6 +29,16 @@ View the slides
 - [Bonus Exercise 1.8: Explore `condor_q`](htcondor/part1-ex8-queue.md)
 - [Bonus Exercise 1.9: Explore `condor_status`](htcondor/part1-ex9-status.md)
 - [Bonus Exercise 1.10: A job that needs retries](htcondor/part1-ex10-job-retry.md)
+
+## Intro to HTCondor Multiple Job Execution
+Slides will be posted here. 
+
+### Intro Exercises 2: Running Many HTC Jobs (Strongly Recommended)
+
+- [Exercise 2.1: Work with input and output files](htcondor/part2-ex1-files.md)
+- [Exercise 2.2: Use `queue N`, `$(Cluster)`, and `$(Process)`](htcondor/part2-ex2-queue-n.md)
+- [Exercise 2.3: Use `queue from` with custom variables](htcondor/part2-ex3-queue-from.md)
+- [Bonus Exercise 2.4: Use `queue matching` with a custom variable](htcondor/part2-ex4-queue-matching.md)
 
 ## Troubleshooting
 
