@@ -18,7 +18,7 @@ Today, you will use a CHTC's local HTC Pool via an access point named `learn.cht
 
 To log in, use a [Secure Shell](http://en.wikipedia.org/wiki/Secure_Shell) (SSH) client.
 
--   From a Mac or Linux computer, run the Terminal app and run the below `ssh` command, replacing \<USERNAME\> with your NetID username:
+-   From a Mac or Linux computer, start the Terminal app and run the below `ssh` command, replacing \<USERNAME\> with your NetID username:
 
 ``` hl_lines="1"
 $ ssh <USERNAME>@learn.chtc.wisc.edu
