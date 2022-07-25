@@ -1,3 +1,4 @@
+
 # OSG Virtual School Materials
 
 ## School Overview and Intro
@@ -22,29 +23,32 @@ View the slides
 - [Exercise 1.5: Determining Resource Needs](htcondor/part1-ex5-request.md)
 - [Exercise 1.6: Remove jobs from the queue](htcondor/part1-ex6-remove.md)
 
-<!-- From 2021, but needs to be moved to later in day 1!!
-### Intro Exercises 2: Running Many HTC Jobs (Strongly Recommended)
-
-- [Exercise 2.1: Work with input and output files](htcondor/part2-ex1-files.md)
-- [Exercise 2.2: Use `queue N`, `$(Cluster)`, and `$(Process)`](htcondor/part2-ex2-queue-n.md)
-- [Exercise 2.3: Use `queue from` with custom variables](htcondor/part2-ex3-queue-from.md)
-- [Bonus Exercise 2.4: Use `queue matching` with a custom variable](htcondor/part2-ex4-queue-matching.md)
--->
 
 ### Bonus Exercises: Job Attributes and Handling
 
 - [Bonus Exercise 1.7: Compile and run some C code](htcondor/part1-ex7-compile.md)
 - [Bonus Exercise 1.8: Explore `condor_q`](htcondor/part1-ex8-queue.md)
 - [Bonus Exercise 1.9: Explore `condor_status`](htcondor/part1-ex9-status.md)
-- [Bonus Exercise 1.10: A job that needs retries](htcondor/part3-ex10-job-retry.md)
+
+## Intro to HTCondor Multiple Job Execution
+Slides will be posted here. 
+
+### Intro Exercises 2: Running Many HTC Jobs (Strongly Recommended)
+
+- [Exercise 2.1: Work with input and output files](htcondor/part2-ex1-files.md)
+- [Exercise 2.2: Use `queue N`, `$(Cluster)`, and `$(Process)`](htcondor/part2-ex2-queue-n.md)
+- [Exercise 2.3: Use `queue from` with custom variables](htcondor/part2-ex3-queue-from.md)
+- [Bonus Exercise 2.4: Use `queue matching` with a custom variable](htcondor/part2-ex4-queue-matching.md)
 
 ## Troubleshooting
 
-Slides will be posted here
+([PDF](troubleshooting/files/osgus22-htc-troubleshooting.pdf),
+[PowerPoint](troubleshooting/files/osgus22-htc-troubleshooting.pptx))
 
 ### Troubleshooting Exercises: 
 
 - [Exercise 1.1: Troubleshooting Jobs](troubleshooting/part1-ex1-troubleshooting.md)
+- [Exercise 1.2: Job Retry](troubleshooting/part1-ex2-job-retry.md)
 
 ## Software
 
@@ -59,31 +63,27 @@ Slides will be posted here
 ### Software Exercises 2: Specific Software Examples (Pick Two)
 
 - [Exercise 2.1: Compiling and Running a Simple Code](software/part2-ex1-compiling.md)
-<!-- still working on 
 - [Exercise 2.2: Compiling a Research Software](software/part2-ex2-prepackaged.md)
 - [Exercise 2.3: Compiling Python and Running Jobs](software/part2-ex3-python.md)
---> 
-
 - [Exercise 2.4: Compiling Matlab and Running Jobs](software/part2-ex4-matlab.md)
-- [Exercise 2.5: Using Conda Environments (Beta)](software/part2-ex5-conda.md)
+- [Exercise 2.5: Using Conda Environments](software/part2-ex5-conda.md)
 
 ### Software Exercises 3: Using Containers in Jobs (Strongly Recommended)
 
 - [Exercise 3.1: Using Software in a Singularity Container](software/part3-ex1-singularity.md)
-<!-- still working on 
+still working on 
 - [Exercise 3.2: Singularity Examples on OSG Connect](software/part3-ex2-singularity-options.md)
---> 
 
 ### Bonus Exercises: More With Containers
 
 - [Exercise 4.1: Using Software in a Docker Container](software/part4-ex1-docker.md)
 - [Exercise 4.2: Building Your Own Docker Container (Beta)](software/part4-ex2-docker-build.md)
 
-<!-- COMMENTING EVERYTHING BELOW HERE, SO CONTENT OWNERS CAN UNCOMMENT AS THEY COMPLETE THINGS
-
 ## Data
 
-Slides will be posted here
+View the slides
+([PDF](data/files/osgus22-data.pdf),
+[PowerPoint](data/files/osgus22-data.pptx))
 
 ### Data Exercises 1: HTCondor File Transfer (Strongly Recommended)
 
@@ -101,8 +101,6 @@ Slides will be posted here
 
 - [Exercise 3.1: Shared filesystems for large input](data/part3-ex1-input.md)
 - [Exercise 3.2: Shared filesystems for large output](data/part3-ex2-output.md)
-
-SEE COMMENT INITIATION HIGHER ABOVE -->
 
 ## Extra Topics
 

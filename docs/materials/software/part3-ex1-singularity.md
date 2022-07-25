@@ -17,7 +17,7 @@ One caveat for using containers: not all systems will support them. HTCondor has
 Setup
 -----
 
-Make sure you are logged into `login04.osgconnect.net` (the OSG Connect submit server for this workshop).  For this exercise we will be using Singularity containers that are hosted by OSG Connect. 
+Make sure you are logged into `login05.osgconnect.net` (the OSG Connect submit server for this workshop).  For this exercise we will be using Singularity containers that are hosted by OSG Connect. 
 
 
 Default Environment
@@ -48,15 +48,9 @@ Container Environment
 
 Now, let's try running that same script inside a container. 
 
-1. On the OSG, containers are stored and run as Singularity container images, so the job needs to run on a server that has Singularity installed. Modify the submit file from the previous step and add (or replace) the following line: 
-
-		:::file
-		requirements = HAS_SINGULARITY == true
-
 1. For this job, we will use the OSG Connect Ubuntu "Xenial" image. The `+SingularityImage` submit file option will tell HTCondor to use this container: 
 
 		:::file
-		requirements = HAS_SINGULARITY == true
 		+SingularityImage = "/cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-ubuntu-xenial:latest"
 
 1. Submit the job and look at the output file. You should see output that indicates 

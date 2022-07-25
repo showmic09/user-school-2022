@@ -7,8 +7,11 @@ but the overall plan here is accurate.
 
 **Welcome social gathering for participants and staff**
 
-*   **Location:** Memorial Union (800 Langdon St), outdoors;
-    more exact location will be posted Sunday&nbsp;&mdash; please check back here!
+*   **Location:** Memorial Union (800 Langdon St).
+    Facing the lake, go to the right along the path;
+    near the Alumni Center, there is a concrete oval; we will meet there.
+    [This link may help get very close](https://what3words.com/basis.mouse.trade),
+    but note that the satellite view is outdated.
 *   **Time:** 7:00&ndash;8:00 p.m., or until people leave
 *   **Masks:** Optional, assuming we can stay outdoors and a bit spaced out
 
@@ -236,9 +239,9 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td colspan="2">
           HTC Showcase, Part 1
           <br>
-          &#9654; Ariana Negreiro; UW–Madison, Animal &amp; Dairy Sciences
+          &#9654; <span style="color: rgb(173, 81, 12);">Ariana Negreiro</span>; UW–Madison, Animal &amp; Dairy Sciences
           <br>
-          &#9654; Edgar Spalding; UW–Madison, Botany
+          &#9654; <span style="color: rgb(173, 81, 12);">Edgar Spalding</span>; UW–Madison, Botany
         </td>
     </tr>
     <tr>
@@ -438,10 +441,13 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>14:15</td>
         <td colspan="2">
           HTC Showcase, Part 2
-          <br>
-          &#9654; Connor Natzke; Colorado School of Mines, Physics
-          <br>
-          &#9654; Matt Garcia; UW–Madison, Forest &amp; Wildlife Ecology
+          <div>
+            &#9654; <span style="color: rgb(173, 81, 12);">Connor Natzke</span>; Colorado School of Mines, Physics
+          </div>
+          <div>
+            &#9654; <span style="color: rgb(173, 81, 12);">Matt Garcia</span>; UW–Madison, Forest &amp; Wildlife Ecology
+            <div style="margin-left: 2ex;">“Simulating the spread of flying insect pests using HTC”</div>
+          </div>
         </td>
     </tr>
     <tr>

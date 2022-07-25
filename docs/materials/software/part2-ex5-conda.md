@@ -4,7 +4,7 @@ status: in progress
 
 <style type="text/css"> pre em { font-style: normal; background-color: yellow; } pre strong { font-style: normal; font-weight: bold; color: #008; } </style>
 
-Software Exercise 2.5: Using Conda Environments (Beta!)
+Software Exercise 2.5: Using Conda Environments
 ====================================
 
 This exercise covers how to use Python environments managed by miniconda. 
