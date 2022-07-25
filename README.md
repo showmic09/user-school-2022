@@ -14,7 +14,7 @@ ARM
 docker run --rm -it -p 8000:8000 -v  ${PWD}:/docs ghcr.io/afritzler/mkdocs-material
 ```
 
-# Adding a Documentation to the Website
+# Adding Documentation to the Website
 
 ## Adding in the Documentation
 
