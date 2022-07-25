@@ -57,7 +57,9 @@ nav:
       - Bonus Exercise 1.7:         materials/htcondor/part1-ex7-compile.md
       - Bonus Exercise 1.8:         materials/htcondor/part1-ex8-queue.md
       - Bonus Exercise 1.9:         materials/htcondor/part1-ex9-status.md
-      - Bonus Exercise 1.10:        materials/htcondor/part1-ex10-job-retry.md
+    - Troubleshooting Exercises:
+      -Exercise 1.1:                materials/troubleshooting/part1-ex1-troubleshooting.md
+      -Exercise 1.2:                materials/troubleshooting/part1-ex2-job-retry.md
     - Data Exercises:
       - Exercise 1.1:               materials/data/part1-ex1-data-needs.md
       - Exercise 1.2:               materials/data/part1-ex2-file-transfer.md
