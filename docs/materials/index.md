@@ -1,3 +1,4 @@
+
 # OSG Virtual School Materials
 
 ## School Overview and Intro
@@ -28,7 +29,6 @@ View the slides
 - [Bonus Exercise 1.7: Compile and run some C code](htcondor/part1-ex7-compile.md)
 - [Bonus Exercise 1.8: Explore `condor_q`](htcondor/part1-ex8-queue.md)
 - [Bonus Exercise 1.9: Explore `condor_status`](htcondor/part1-ex9-status.md)
-- [Bonus Exercise 1.10: A job that needs retries](htcondor/part1-ex10-job-retry.md)
 
 ## Intro to HTCondor Multiple Job Execution
 Slides will be posted here. 
