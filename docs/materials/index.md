@@ -47,6 +47,7 @@ Slides will be posted here
 ### Troubleshooting Exercises: 
 
 - [Exercise 1.1: Troubleshooting Jobs](troubleshooting/part1-ex1-troubleshooting.md)
+- [Exercise 1.2: Job Retry](troubleshooting/part1-ex2-job-retry.md)
 
 ## Software
 
