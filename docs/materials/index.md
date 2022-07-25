@@ -31,7 +31,8 @@ View the slides
 - [Bonus Exercise 1.9: Explore `condor_status`](htcondor/part1-ex9-status.md)
 
 ## Intro to HTCondor Multiple Job Execution
-Slides will be posted here. 
+
+View the Slides ([PDF](htcondor/files/osgus22-htc-multiple-PART2.pdf))
 
 ### Intro Exercises 2: Running Many HTC Jobs (Strongly Recommended)
 
