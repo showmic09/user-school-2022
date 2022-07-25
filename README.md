@@ -26,7 +26,7 @@ When you add new documentation you should name the file like so: ```part<x>-ex<y
 
 Documentation should be referenced in two locations:
 
-##### /docs/material/index.md
+#### [/docs/material/index.md](https://github.com/osg-htc/user-school-2022/blob/main/docs/materials/index.md)
 
 This is an overview page that contains all documentation and each category's files.
 
@@ -43,7 +43,7 @@ Use format below when adding to this page
 - [Exercise 1.2: <exercise-name>](<category>/part1-ex2-<exercise-name>.md)
 ```
         
-##### /mkdocs.yml
+#### [/mkdocs.yml](https://github.com/osg-htc/user-school-2022/blob/main/mkdocs.yml)
 
 This files generates the website navigation. You should not include the category files in this navigation.
 
