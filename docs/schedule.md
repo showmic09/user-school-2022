@@ -146,7 +146,7 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>10:45</td>
         <td>11:30</td>
         <td><span class="before-dot text-light-blue">Lecture: Troubleshooting jobs</span></td>
-        <td></td>
+        <td>Showmic</td>
     </tr>
     <tr>
         <td>11:30</td>
