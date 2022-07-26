@@ -189,8 +189,8 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>staff</td>
     </tr>
     <tr>
-        <td>17:00</td>
-        <td>21:00</td>
+        <td>19:00</td>
+        <td>20:30</td>
         <td>
             <span class="before-dot text-orange">Evening work session (optional)</span> 
             <br>
@@ -276,8 +276,8 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>staff</td>
     </tr>
     <tr>
-        <td>17:00</td>
-        <td>21:00</td>
+        <td>19:00</td>
+        <td>20:30</td>
         <td>
             <span class="before-dot text-orange">Evening work session (optional)</span> 
             <br>
@@ -381,8 +381,8 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>staff</td>
     </tr>
     <tr>
-        <td>17:00</td>
-        <td>21:00</td>
+        <td>19:00</td>
+        <td>20:30</td>
         <td>
             <span class="before-dot text-orange">Evening work session (optional)</span> 
             <br>
