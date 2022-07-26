@@ -194,7 +194,7 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>
             <span class="before-dot text-orange">Evening work session (optional)</span> 
             <br>
-            <span class="tabbed-in">Location: Union South - Traditions (2nd Floor)</span>
+            <span class="tabbed-in">Union South - Traditions (2nd Floor)</span>
         </td>
         <td>Showmic and Carrie</td>
     </tr>
@@ -281,7 +281,7 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>
             <span class="before-dot text-orange">Evening work session (optional)</span> 
             <br>
-            <span class="tabbed-in">Location: Union South - Fifth Quarter Studio (2nd Floor)</span>
+            <span class="tabbed-in">Union South - Fifth Quarter Studio (2nd Floor)</span>
         </td>
         <td>Mats and Tim</td>
     </tr>
@@ -386,7 +386,7 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>
             <span class="before-dot text-orange">Evening work session (optional)</span> 
             <br>
-            <span class="tabbed-in">Location: Union South - Fifth Quarter Studio (2nd Floor)</span>
+            <span class="tabbed-in">Union South - Fifth Quarter Studio (2nd Floor)</span>
         </td>
         <td>Jason and Carrie</td>
     </tr>
