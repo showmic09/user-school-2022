@@ -77,12 +77,12 @@ you *may* be using `login05.osgconnect.net`, so just change the examples as need
 
 To log in to the OSG Connect Access Point,
 use the username and SSH key that you made when you set up OSG Connect.
-If you have any issues logging in to `login05` (or `login05`, if that’s you),
+If you have any issues logging in to `login05` (or `login04`, if that’s you),
 please ask for help right away!
 
 So please `ssh` in to the server and take a look around:
 
-1.  Log in using `ssh login05.osgconnect.net` (or `login05`, if that’s you)
+1.  Log in using `ssh login05.osgconnect.net` (or `login04`, if that’s you)
 1.  Try some Linux and HTCondor commands; for example:
     *   Linux commands: `hostname`, `pwd`, `ls`, and so on
     *   What is the operating system? `uname` and (in this case) `cat /etc/redhat-release`
