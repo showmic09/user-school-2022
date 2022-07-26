@@ -30,7 +30,7 @@ you now need to blast a much larger dataset for your research.
 This dataset can be downloaded with the following command:
 
 ``` console
-user@login04 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/mouse_rna.tar.gz
+user@login05 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/mouse_rna.tar.gz
 ```
 
 After un-tar'ing (`tar xzf mouse_rna.tar.gz`) the file, you should be able to confirm that it's size is roughly 100 MB.
@@ -50,13 +50,13 @@ One of these is called [genome tools](http://genometools.org/), and you can down
 (just like BLAST) using the following command:
 
 ``` console
-user@login04 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/gt-1.5.10-Linux_x86_64-64bit-complete.tar.gz
+user@login05 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/gt-1.5.10-Linux_x86_64-64bit-complete.tar.gz
 ```
 
 Un-tar the gt package (`tar -xzvf ...`), then run its sequence file splitter as follows, with the target file size of 1MB:
 
 ``` console
-user@login04 $ ./gt-1.5.10-Linux_x86_64-64bit-complete/bin/gt splitfasta -targetsize 1 mouse_rna.fa
+user@login05 $ ./gt-1.5.10-Linux_x86_64-64bit-complete/bin/gt splitfasta -targetsize 1 mouse_rna.fa
 ```
 
 You'll notice that the result is a set of 100 files, all about the size of 1 MB, and numbered 1 through 100.
@@ -123,7 +123,7 @@ In our tests, the jobs ran for ~15 minutes.
     If you want to remove all of the extra files, you can try:
     
         :::console
-        user@login04 $ rm *.err *.log *.out *.result
+        user@login05 $ rm *.err *.log *.out *.result
 
 Update the resource requests
 ----------------------------

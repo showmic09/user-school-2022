@@ -55,13 +55,13 @@ For your own work in the future, make sure that you never put any sensitive data
 Next, you can check for the file and test the command that we'll use in jobs on the OSG Connect login node:
 
 ``` console
-user@login04 $ ls /public/<USERNAME>
+user@login05 $ ls /public/<USERNAME>
 ```
 
 Now, test a copy of the file from StashCache into your `/home` directory on `login05.osgconnect.net`:
 
 ``` console
-user@login04 $ stashcp /osgconnect/public/<USERNAME>/pdbaa_files.tar.gz ./
+user@login05 $ stashcp /osgconnect/public/<USERNAME>/pdbaa_files.tar.gz ./
 ```
 
 Replacing all instances of `<USERNAME>` with your username on `login05.osgconnect.net`.

@@ -23,7 +23,7 @@ Place the Large File on the Proxy
 First, you'll need to put the `pdbaa_files.tar.gz` file onto the Stash web directory. Use the following command:
 
 ``` console
-user@login04 $ cp pdbaa_files.tar.gz /public/<USERNAME>
+user@login05 $ cp pdbaa_files.tar.gz /public/<USERNAME>
 ```
 
 Replacing `<USERNAME>` with your username
@@ -38,7 +38,7 @@ Using the above convention (and from a different directory on `login05.osgconnec
 the download of your `pdbaa_files.tar.gz` file with a command like the following:
 
 ``` console
-user@login04 $ wget http://stash.osgconnect.net/public/<USERNAME>/pdbaa_files.tar.gz
+user@login05 $ wget http://stash.osgconnect.net/public/<USERNAME>/pdbaa_files.tar.gz
 ```
 
 Again, replacing `<USERNAME>` with your own username.
@@ -90,7 +90,7 @@ You may wish to first remove the log, result, output, and error files from the p
 when the new test job completes.
 
 ``` console
-user@login04 $ rm *.err *.out *.result *.log
+user@login05 $ rm *.err *.out *.result *.log
 ```
 
 Submit a single test job!  (If your submit file uses a `queue .. matching` statement, a simple way to submit a single job is to temporarily change it to `queue inputfile matching mouse_rna.fa.1`.
