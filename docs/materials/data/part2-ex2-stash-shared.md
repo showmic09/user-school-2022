@@ -25,7 +25,7 @@ We will be using the command `stashcp` to copy files from Stash to the execute h
 Setup
 -----
 
--   Make sure you're logged in to `login04.osgconnect.net`
+-   Make sure you're logged in to `login05.osgconnect.net`
 -   Copy the following files from the previous [Exercise 2.1](../part2-ex1-blast-proxy) to a new directory in `/home/<username>` called `stash-shared`:
     - `blast_wrapper.sh`
     - `blastx`
@@ -58,13 +58,13 @@ Next, you can check for the file and test the command that we'll use in jobs on 
 user@login04 $ ls /public/<USERNAME>
 ```
 
-Now, test a copy of the file from StashCache into your `/home` directory on `login04.osgconnect.net`:
+Now, test a copy of the file from StashCache into your `/home` directory on `login05.osgconnect.net`:
 
 ``` console
 user@login04 $ stashcp /osgconnect/public/<USERNAME>/pdbaa_files.tar.gz ./
 ```
 
-Replacing all instances of `<USERNAME>` with your username on `login04.osgconnect.net`.
+Replacing all instances of `<USERNAME>` with your username on `login05.osgconnect.net`.
 You should now see the `pdbaa_files.tar.gz` file in your current directory.
 Notice that we had to include the **`/osgconnect/public`** and your username in the file path for `stashcp`, which make sure you're
 copying from **your** `public` space.
@@ -103,7 +103,7 @@ Note: Keeping Stash 'Clean'
 
 Just as for data on a web proxy, it is VERY important to remove old files from Stash when you no longer need them,
 especially so that you'll have plenty of space for such files in the future.
-For example, you would delete (`rm`) files from `public` on `login04.osgconnect.net` when you don't need them there
+For example, you would delete (`rm`) files from `public` on `login05.osgconnect.net` when you don't need them there
 anymore, but only after all jobs have finished.
 The next time you use Stash after the school, remember to first check for old files that you can delete.
 

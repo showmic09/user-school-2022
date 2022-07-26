@@ -29,7 +29,7 @@ So, let’s examine the operating system and (major) version of slots on CHTC an
         :::console
         user@server $ condor_status -autoformat OpSysAndVer
 
-1.  Log in or switch to `login04.osgconnect.net` (parallel windows are handy!)
+1.  Log in or switch to `login05.osgconnect.net` (parallel windows are handy!)
     and run the same command
 
 You will see many values for the operating system and major version.
@@ -99,7 +99,7 @@ get_version 'nslookup'
 
 For this part of the exercise, try creating a submit file without referring to previous exercises!
 
-1.  Log in or switch to `login04.osgconnect.net`
+1.  Log in or switch to `login05.osgconnect.net`
 1.  Create and change into a new folder for this exercise, e.g. `osg-ex15`
 1.  Save the above script as a file named `sw_probe.sh`
 1.  Make sure the script can be run: `chmod a+x sw_probe.sh`

@@ -29,7 +29,7 @@ Identifying Potential Arguments
 -------------------------------
 
 1. In the same directory as the last exercise (still logged into 
-`login04.osgconnect.net`), make sure you're in the directory with your 
+`login05.osgconnect.net`), make sure you're in the directory with your 
 BLAST job submission. 
 
 1.  What values might we want to input to the script via arguments?

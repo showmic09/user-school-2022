@@ -71,7 +71,7 @@ Which files were compressed the least?  Why?
 
 For many of the remaining exercises, you will be using an OSG Connect Access Point,
 which submits jobs into the Open Science Pool.
-For the School, the default server is named `login04.osgconnect.net`;
+For the School, the default server is named `login05.osgconnect.net`;
 however, if you had an OSG Connect account from before the School (you know who you are),
 you *may* be using `login05.osgconnect.net`, so just change the examples as needed.
 
@@ -82,7 +82,7 @@ please ask for help right away!
 
 So please `ssh` in to the server and take a look around:
 
-1.  Log in using `ssh login04.osgconnect.net` (or `login05`, if that’s you)
+1.  Log in using `ssh login05.osgconnect.net` (or `login05`, if that’s you)
 1.  Try some Linux and HTCondor commands; for example:
     *   Linux commands: `hostname`, `pwd`, `ls`, and so on
     *   What is the operating system? `uname` and (in this case) `cat /etc/redhat-release`
@@ -107,7 +107,7 @@ scp <source 1> <source 2>...<source N> [username@]<remote server>:<remote path>
 
 `<remote path>` may be omitted if you want to copy your sources to your remote home directory
 and `[username@]` may be omitted if your usernames are the same across both servers.
-For example, if you are logged in to `login04.osgconnect.net`
+For example, if you are logged in to `login05.osgconnect.net`
 and wanted to copy the file `foo` from your current directory
 to your home directory on `learn.chtc.wisc.edu`,
 and if your usernames are the same on both servers,
@@ -117,9 +117,9 @@ the command would look like this:
 user@login04 $ scp foo learn.chtc.wisc.edu:
 ```
 
-Additionally, you could *pull* files from `learn.chtc.wisc.edu` to `login04.osgconnect.net`.
+Additionally, you could *pull* files from `learn.chtc.wisc.edu` to `login05.osgconnect.net`.
 The following command copies `bar` from your home directory on `learn.chtc.wisc.edu`
-to your current directory on `login04.osgconnect.net`;
+to your current directory on `login05.osgconnect.net`;
 and in this case, the username (Net ID) for `learn` is specified:
 
 ``` console
@@ -128,16 +128,16 @@ user@login04 $ scp net_id@learn.chtc.wisc.edu:bar .
 
 Also, you can copy folders between servers using the `-r` option.
 If you kept all your files from the HTCondor exercise 1.3 in a folder named `htc-1.3` on `learn.chtc.wisc.edu`,
-you could use the following command to copy them to your home directory on `login04.osgconnect.net`:
+you could use the following command to copy them to your home directory on `login05.osgconnect.net`:
 
 ``` console
 user@login04 $ scp -r net_id@learn.chtc.wisc.edu:htc-1.3 .
 ```
 
 Using this information, try this:
-From `login04.osgconnect.net`,
+From `login05.osgconnect.net`,
 try copying the tarball you created earlier in this exercise on `learn.chtc.wisc.edu`
-to `login04.osgconnect.net`.
+to `login05.osgconnect.net`.
 
 ### Secure copy to your laptop
 
@@ -150,14 +150,14 @@ To use `scp` on your laptop, follow the instructions relevant to your computer�
 
 `scp` should be included by default and available via the terminal on both Mac and Linux operating systems.
 Open a terminal window on your laptop and
-try copying the tarball containing the OSG exercise 1.1 from `login04.osgconnect.net` to your laptop.
+try copying the tarball containing the OSG exercise 1.1 from `login05.osgconnect.net` to your laptop.
 
 #### Windows users
 
 WinSCP is an `scp` client for Windows operating systems.
 
 1.  Install WinSCP from <https://winscp.net/eng/index.php>
-1.  Start WinSCP and enter your SSH credentials for `login04.osgconnect.net`
+1.  Start WinSCP and enter your SSH credentials for `login05.osgconnect.net`
 1.  Copy the tarball containing OSG exercise 1.1 to your laptop
 
 ### Extra challenge: Using rsync
@@ -186,15 +186,15 @@ and the ability to only transfer files that have changed.
 Both of these features are helpful when you have network issues
 so that you do not need to restart the transfer from scratch every time your connection fails.
 
-1.  Log in to `login04.osgconnect.net`
-1.  Use `rsync` to transfer the folder containing OSG exercise 1.1 on `learn.chtc.wisc.edu` to `login04.osgconnect.net`
+1.  Log in to `login05.osgconnect.net`
+1.  Use `rsync` to transfer the folder containing OSG exercise 1.1 on `learn.chtc.wisc.edu` to `login05.osgconnect.net`
 1.  In a separate terminal window, log in to `learn.chtc.wisc.edu`
 1.  Create a new file in your OSG exercise 1.1 folder on `learn.chtc.wisc.edu` with the `touch` command:
 
         :::console
         user@learn $ touch <filename>
 
-1.  From `login04.osgconnect.net`,
+1.  From `login05.osgconnect.net`,
     use the same `rsync` command to transfer the folder with the new file you just created.
     How many files were transferred the first time?
     How many files were transferred if you run the same rsync command again?

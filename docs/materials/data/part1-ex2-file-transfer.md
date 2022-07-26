@@ -15,7 +15,7 @@ Setup
 
 The executable we'll use in this exercise and later today is the same `blastx` executable from previous exercises.
 
-1. Log in to `login04.osgconnect.net`
+1. Log in to `login05.osgconnect.net`
 
 2. Change into the `blast-data` folder that you created in the previous exercise.
 
