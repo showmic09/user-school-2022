@@ -44,8 +44,6 @@ View the Slides ([PDF](htcondor/files/osgus22-htc-htcondor-PART2.pdf))
 
 ## OSG
 
-Slides coming soon!
-
 View the slides
 ([PDF](osg/files/osgus22-day2-2-osg-cartwright.pdf),
 [PowerPoint](osg/files/osgus22-day2-2-osg-cartwright.pptx))
