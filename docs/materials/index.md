@@ -70,8 +70,9 @@ View the slides
 
 ## Software
 
-([PDF](troubleshooting/files/osgus22-software.pdf),
-[PowerPoint](troubleshooting/files/osgus22-software.pptx))
+View the slides
+([PDF](software/files/osgus22-software.pdf),
+[PowerPoint](software/files/osgus22-software.pptx))
 
 ### Software Exercises 1: Basic Software and Wrapper Script Use (Strongly Recommended)
 
