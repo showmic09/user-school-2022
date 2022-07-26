@@ -46,11 +46,9 @@ View the Slides ([PDF](htcondor/files/osgus22-htc-htcondor-PART2.pdf))
 
 Slides coming soon!
 
-<!--
 View the slides
-([PDF](osg/files/osgvs21-day3-osg.pdf),
-[PowerPoint](osg/files/osgvs21-day3-osg.pptx))
--->
+([PDF](osg/files/osgus22-day2-2-osg-cartwright.pdf),
+[PowerPoint](osg/files/osgus22-day2-2-osg-cartwright.pptx))
 
 ### OSG Exercises: Comparing CHTC and OSG (Strongly Recommended)
 
