@@ -92,7 +92,7 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>15:15</td>
         <td><span class="before-dot text-light-blue">Lecture: Setting goals for the School and beyond</span></td>
         <td>Christina</td>
-    </tr>
+    </tr> 
     <tr>
         <td>15:15</td>
         <td>17:00</td>
@@ -188,6 +188,16 @@ The Union should be open, and so things like ice cream and beer will be availabl
         </td>
         <td>staff</td>
     </tr>
+    <tr>
+        <td>19:00</td>
+        <td>20:30</td>
+        <td>
+            <span class="before-dot text-orange">Evening work session (optional)</span> 
+            <br>
+            <span class="tabbed-in">Union South - Traditions (2nd Floor)</span>
+        </td>
+        <td>Showmic and Carrie</td>
+    </tr>
     </tbody>
 </table>
 
@@ -264,6 +274,16 @@ The Union should be open, and so things like ice cream and beer will be availabl
             <span class="before-dot text-black">Individual consultations (some)</span>
         </td>
         <td>staff</td>
+    </tr>
+    <tr>
+        <td>19:00</td>
+        <td>20:30</td>
+        <td>
+            <span class="before-dot text-orange">Evening work session (optional)</span> 
+            <br>
+            <span class="tabbed-in">Union South - Fifth Quarter Studio (2nd Floor)</span>
+        </td>
+        <td>Mats and Tim</td>
     </tr>
     </tbody>
 </table>
@@ -359,6 +379,16 @@ The Union should be open, and so things like ice cream and beer will be availabl
             <span class="before-dot text-black">Individual and small-group meetings available</span>
         </td>
         <td>staff</td>
+    </tr>
+    <tr>
+        <td>19:00</td>
+        <td>20:30</td>
+        <td>
+            <span class="before-dot text-orange">Evening work session (optional)</span> 
+            <br>
+            <span class="tabbed-in">Union South - Fifth Quarter Studio (2nd Floor)</span>
+        </td>
+        <td>Jason and Carrie</td>
     </tr>
     </tbody>
 </table>
