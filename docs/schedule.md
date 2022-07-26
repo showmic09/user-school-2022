@@ -92,7 +92,7 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>15:15</td>
         <td><span class="before-dot text-light-blue">Lecture: Setting goals for the School and beyond</span></td>
         <td>Christina</td>
-    </tr>
+    </tr> 
     <tr>
         <td>15:15</td>
         <td>17:00</td>
@@ -188,6 +188,16 @@ The Union should be open, and so things like ice cream and beer will be availabl
         </td>
         <td>staff</td>
     </tr>
+    <tr>
+        <td>17:00</td>
+        <td>21:00</td>
+        <td>
+            <span class="before-dot text-orange">Evening work session (optional)</span> 
+            <br>
+            <span class="tabbed-in">Location: Union South - Traditions (2nd Floor)</span>
+        </td>
+        <td>staff</td>
+    </tr>
     </tbody>
 </table>
 
@@ -262,6 +272,16 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>
             Afternoon off, if you like <br> 
             <span class="before-dot text-black">Individual consultations (some)</span>
+        </td>
+        <td>staff</td>
+    </tr>
+    <tr>
+        <td>17:00</td>
+        <td>21:00</td>
+        <td>
+            <span class="before-dot text-orange">Evening work session (optional)</span> 
+            <br>
+            <span class="tabbed-in">Location: Union South - Fifth Quarter Studio (2nd Floor)</span>
         </td>
         <td>staff</td>
     </tr>
@@ -357,6 +377,16 @@ The Union should be open, and so things like ice cream and beer will be availabl
             <span class="before-dot text-pink">Hands-on: Containers</span> <br> 
             <span class="before-dot text-light-orange">Work time: Apply HTC to own research</span> <br>
             <span class="before-dot text-black">Individual and small-group meetings available</span>
+        </td>
+        <td>staff</td>
+    </tr>
+    <tr>
+        <td>17:00</td>
+        <td>21:00</td>
+        <td>
+            <span class="before-dot text-orange">Evening work session (optional)</span> 
+            <br>
+            <span class="tabbed-in">Location: Union South - Fifth Quarter Studio (2nd Floor)</span>
         </td>
         <td>staff</td>
     </tr>
@@ -473,6 +503,16 @@ The Union should be open, and so things like ice cream and beer will be availabl
         <td>17:00</td>
         <td><span class="before-dot text-light-blue">Lecture: The End &hellip; and the Beginning</span></td>
         <td>Tim C.</td>
+    </tr>
+    <tr>
+        <td>18:30</td>
+        <td>21:00</td>
+        <td>
+            <span class="before-dot text-orange">Evening work session (optional)</span> 
+            <br>
+            <span class="tabbed-in">Location: Union South - Industry (3rd Floor)</span>
+        </td>
+        <td>staff</td>
     </tr>
   </tbody>
 </table>
