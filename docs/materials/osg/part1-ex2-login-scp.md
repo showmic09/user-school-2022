@@ -77,7 +77,7 @@ you *may* be using `login05.osgconnect.net`, so just change the examples as need
 
 To log in to the OSG Connect Access Point,
 use the username and SSH key that you made when you set up OSG Connect.
-If you have any issues logging in to `login04` (or `login05`, if that’s you),
+If you have any issues logging in to `login05` (or `login05`, if that’s you),
 please ask for help right away!
 
 So please `ssh` in to the server and take a look around:
@@ -114,7 +114,7 @@ and if your usernames are the same on both servers,
 the command would look like this:
 
 ```console
-user@login04 $ scp foo learn.chtc.wisc.edu:
+user@login05 $ scp foo learn.chtc.wisc.edu:
 ```
 
 Additionally, you could *pull* files from `learn.chtc.wisc.edu` to `login05.osgconnect.net`.
@@ -123,7 +123,7 @@ to your current directory on `login05.osgconnect.net`;
 and in this case, the username (Net ID) for `learn` is specified:
 
 ``` console
-user@login04 $ scp net_id@learn.chtc.wisc.edu:bar .
+user@login05 $ scp net_id@learn.chtc.wisc.edu:bar .
 ```
 
 Also, you can copy folders between servers using the `-r` option.
@@ -131,7 +131,7 @@ If you kept all your files from the HTCondor exercise 1.3 in a folder named `htc
 you could use the following command to copy them to your home directory on `login05.osgconnect.net`:
 
 ``` console
-user@login04 $ scp -r net_id@learn.chtc.wisc.edu:htc-1.3 .
+user@login05 $ scp -r net_id@learn.chtc.wisc.edu:htc-1.3 .
 ```
 
 Using this information, try this:

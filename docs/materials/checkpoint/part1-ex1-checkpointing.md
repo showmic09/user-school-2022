@@ -19,7 +19,7 @@ this simulates a more intensive computation.
 To get set up:
 
 1.  Log in to `learn.chtc.wisc.edu`
-    (`login04` is fine, too, except the `condor_ssh_to_job` step below should be skipped)
+    (`login05` is fine, too, except the `condor_ssh_to_job` step below should be skipped)
 
 1.  Create and change into a new directory for this exercise
 

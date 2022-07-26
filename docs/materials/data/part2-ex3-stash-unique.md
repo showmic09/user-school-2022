@@ -33,14 +33,14 @@ We'll be using a multi-purpose media tool called `ffmpeg`  to convert video form
 The basic command to convert a file looks like this: 
 
 ``` console
-user@login04 $ ./ffmpeg -i input.mov output.mp4
+user@login05 $ ./ffmpeg -i input.mov output.mp4
 ```
 
 In order to resize our files, we're going to manually set the video bitrate and resize the frames, so that the resulting
 file is smaller.
 
 ``` console
-user@login04 $ ./ffmpeg -i input.mp4 -b:v 400k -s 640x360 output.mp4
+user@login05 $ ./ffmpeg -i input.mp4 -b:v 400k -s 640x360 output.mp4
 ```
 
 To get the `ffmpeg` binary do the following:
@@ -48,13 +48,13 @@ To get the `ffmpeg` binary do the following:
 1.  We'll be downloading the `ffmpeg` pre-built static binary originally from this page: <http://johnvansickle.com/ffmpeg/>. 
 
         :::console
-        user@login04 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/ffmpeg-release-64bit-static.tar.xz
+        user@login05 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/ffmpeg-release-64bit-static.tar.xz
 
 1.  Once the binary is downloaded, un-tar it, and then copy the main `ffmpeg` program into your current directory: 
 
         :::console
-        user@login04 $ tar -xf ffmpeg-release-64bit-static.tar.xz
-        user@login04 $ cp ffmpeg-4.0.1-64bit-static/ffmpeg ./
+        user@login05 $ tar -xf ffmpeg-release-64bit-static.tar.xz
+        user@login05 $ cp ffmpeg-4.0.1-64bit-static/ffmpeg ./
 
 Script
 ------

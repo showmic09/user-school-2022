@@ -32,7 +32,7 @@ This may be your first OSG job, ever!
 1.  Make a new directory for this exercise, `osg-ex13` and change into it
 
 1.  If you did not copy the tarball for [OSG exercise 1.1](part1-ex1-submit-refresher.md)
-    from `learn` to `login04` in the previous exercise,
+    from `learn` to `login05` in the previous exercise,
     return to [OSG exercise 1.2](part1-ex2-login-scp.md) and do that now.
 
 1.  Unpack the tarball containing the OSG exercise 1.1 files
@@ -56,7 +56,7 @@ This may be your first OSG job, ever!
     to get the unique set of location coordinates:
 
         :::console
-        user@login04 $ cat location-*.out | sort | uniq
+        user@login05 $ cat location-*.out | sort | uniq
 
 ## Mapping your jobs
 
