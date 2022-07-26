@@ -11,7 +11,7 @@ and map their geographical locations.
 ## Where in the world are my jobs? (Part 2)
 
 In this version of the geolocating exercise,
-you will submit jobs to the OS Pool from `login04.osgconnect.net`
+you will submit jobs to the OS Pool from `login05.osgconnect.net`
 and hopefully get back interesting results!
 You will use the same job (software) as you did in [OSG exercise 1.1](part1-ex1-submit-refresher.md).
 
@@ -19,7 +19,7 @@ You will use the same job (software) as you did in [OSG exercise 1.1](part1-ex1-
 
 This may be your first OSG job, ever!
 
-1.  If not already logged in, `ssh` into `login04.osgconnect.net`
+1.  If not already logged in, `ssh` into `login05.osgconnect.net`
 
 1.  Set the default project associated with your account by running the following command:
 

@@ -13,7 +13,7 @@ the last exercise (Exercise 1.3).
 Setup
 -----
 
--   Make sure you are logged into `login04.osgconnect.net`
+-   Make sure you are logged into `login05.osgconnect.net`
 -   Make sure you are in the same directory as the previous exercise,
     [Exercise 1.3](part1-ex3-blast-split.md) directory named `blast-split`.
 
@@ -32,9 +32,9 @@ Replacing `<USERNAME>` with your username
 
 Once the file is placed in your `/public` directory, it can be downloaded from a corresponding URL such as
 `http://stash.osgconnect.net/public/<USERNAME>/pdbaa_files.tar.gz`, where `<USERNAME>` is your username on
-`login04.osgconnect.net`.
+`login05.osgconnect.net`.
 
-Using the above convention (and from a different directory on `login04.osgconnect.net`, any directory), you can test
+Using the above convention (and from a different directory on `login05.osgconnect.net`, any directory), you can test
 the download of your `pdbaa_files.tar.gz` file with a command like the following:
 
 ``` console

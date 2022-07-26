@@ -54,7 +54,7 @@ Once the files have finished downloading, untar them.
 ### Software, Executable, Submit File
 
 Because these jobs will be similar to the previous exercise, we can copy the software (`ffmpeg`), our executable
-(`run_ffmpeg.sh`) and submit file from `login04.osgconnect.net` to `learn.chtc.wisc.edu`, or, feel free to replicate
+(`run_ffmpeg.sh`) and submit file from `login05.osgconnect.net` to `learn.chtc.wisc.edu`, or, feel free to replicate
 these by following the instructions in the [previous exercise](../part2-ex3-stash-unique).
 These files should go into a sub-directory of your **home** directory, **not your Staging directory**.
 

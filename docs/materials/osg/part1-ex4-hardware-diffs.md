@@ -107,10 +107,10 @@ but take a break every few minutes to switch back to `learn` and record progress
 
 Now you will do essentially the same thing on the OS Pool.
 
-1.  Log in or switch to `login04.osgconnect.net`
+1.  Log in or switch to `login05.osgconnect.net`
 
 1.  Copy the `osg-ex14` directory from the [section above](#checking-chtc-memory-availability)
-    from `learn.chtc.wisc.edu` to `login04.osgconnect.net`
+    from `learn.chtc.wisc.edu` to `login05.osgconnect.net`
 
     If you get stuck during the copying process, refer to [OSG exercise 1.2](part1-ex2-login-scp.md).
 

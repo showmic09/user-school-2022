@@ -16,7 +16,7 @@ Data
 
 A copy of the movie files for this exercise have been placed in `/public/osg/user-school-2022`, so that they'll be available to our jobs when they run out on OSG.
 
-1.  Log into `login04.osgconnect.net`
+1.  Log into `login05.osgconnect.net`
 1.  Create a directory for this exercise named `stash-unique` and change into it.
 1.  We're going to need a list of these files later.  Below is the final list of movie files.  Because of the size, you do not need to download the files to your `/public` directory, and instead use the copies in the stash directory.
     For now, let's save a list of the videos to a file in this directory.  Save it as `movie_list.txt`: 

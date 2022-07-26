@@ -21,7 +21,7 @@ Wrapper Script, part 1
 
 Our wrapper script will be a bash script that runs several commands.
 
-1. In the same directory as the last exercise (still logged into `login04.osgconnect.net`) make a file called `run_blast.sh`. 
+1. In the same directory as the last exercise (still logged into `login05.osgconnect.net`) make a file called `run_blast.sh`. 
 
 1. The first line we'll place in the script is the basic command for running blast. Based on our previous submit file, what command needs to go into the script? 
 

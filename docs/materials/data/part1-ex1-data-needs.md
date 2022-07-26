@@ -13,7 +13,7 @@ In this exercise we will attempt to understand the input and output of the bioin
 Setup
 -----
 
-1. Log in to `login04.osgconnect.net`
+1. Log in to `login05.osgconnect.net`
 
 2. Create a directory for this exercise named `blast-data` and change into it
 

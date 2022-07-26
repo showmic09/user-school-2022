@@ -13,7 +13,7 @@ Splitting the input will also mean that we don't have to rely on additional larg
 Setup
 -----
 
-1. Log in to `login04.osgconnect.net`
+1. Log in to `login05.osgconnect.net`
 
 1. Create a directory for this exercise named `blast-split` and change into it.
 1. Copy over the following files from the [previous exercise](../part1-ex2-file-transfer):
