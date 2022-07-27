@@ -148,7 +148,7 @@ If all of the previous tests have gone okay, you can prepare to run all 100 jobs
 To make sure you're not going to generate too much data, use the size of files from the previous test to calculate how
 much total data you're going to add to the `blast-split` directory for 100 jobs.
 
-Make sure you remove `pdbaa_files.tar.gz` from the `transfer_input_files` in the _split_ submit file.
+Make sure you remove `pdbaa_files.tar.gz` from the `transfer_input_files` in the _split_ submit file. Moreover, don't forget to remove the log, error and output file of the previous job.
 
 Submit all 100 jobs!
 They may take a while to all complete, but it will still be faster than the many hours it would have taken to blast the
