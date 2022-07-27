@@ -130,6 +130,7 @@ View the slides
 ### Scaling Up Exercises
 
 -   [Exercise 1.1: Organizing HTC workloads](scaling/part1-ex1-organization.md)
+-   [Exercise 1.2: Investigating Job Class Ad](scaling/part1-ex2-job-class-ad.md)
 
 ## Extra Topics
 
