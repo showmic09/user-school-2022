@@ -123,6 +123,14 @@ View the slides
 - [Exercise 3.1: Shared filesystems for large input](data/part3-ex1-input.md)
 - [Exercise 3.2: Shared filesystems for large output](data/part3-ex2-output.md)
 
+## Scaling Up
+
+(Slides will be posted here.)
+
+### Scaling Up Exercises
+
+-   [Exercise 1.1: Organizing HTC workloads](scaling/part1-ex1-organization.md)
+
 ## Extra Topics
 
 <!-- BEGIN EXTRA TOPICS THAT ARE NOT READY YET
