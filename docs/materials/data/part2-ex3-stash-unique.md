@@ -155,7 +155,7 @@ Note that we use the input file name multiple times in our script, so we'll have
         transfer_input_files = ffmpeg, stash:///osgconnect/public/osg/user-school-2022/$(mov)
 
 1. To set these arguments, we will use the `queue .. from` syntax that we learned in the 
-   [HTC Exercise 2.3](../../htc/part2-ex3-queue-from).
+   [HTC Exercise 2.3](../../htcondor/part2-ex3-queue-from).
    In our submit file, we can then change our queue statement to:
 
         queue mov from movie_list.txt
