@@ -21,7 +21,7 @@ Sample Script
 -------------------
 
 1. For this example, create a script called `rand_array.py` on `learn.chtc.wisc.edu` or
-`login04.osgconnect.net`:
+`login05.osgconnect.net`:
 
 		:::file
 		import numpy as np

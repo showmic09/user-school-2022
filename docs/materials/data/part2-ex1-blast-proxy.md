@@ -13,7 +13,7 @@ the last exercise (Exercise 1.3).
 Setup
 -----
 
--   Make sure you are logged into `login04.osgconnect.net`
+-   Make sure you are logged into `login05.osgconnect.net`
 -   Make sure you are in the same directory as the previous exercise,
     [Exercise 1.3](part1-ex3-blast-split.md) directory named `blast-split`.
 
@@ -23,7 +23,7 @@ Place the Large File on the Proxy
 First, you'll need to put the `pdbaa_files.tar.gz` file onto the Stash web directory. Use the following command:
 
 ``` console
-user@login04 $ cp pdbaa_files.tar.gz /public/<USERNAME>
+user@login05 $ cp pdbaa_files.tar.gz /public/<USERNAME>
 ```
 
 Replacing `<USERNAME>` with your username
@@ -32,13 +32,13 @@ Replacing `<USERNAME>` with your username
 
 Once the file is placed in your `/public` directory, it can be downloaded from a corresponding URL such as
 `http://stash.osgconnect.net/public/<USERNAME>/pdbaa_files.tar.gz`, where `<USERNAME>` is your username on
-`login04.osgconnect.net`.
+`login05.osgconnect.net`.
 
-Using the above convention (and from a different directory on `login04.osgconnect.net`, any directory), you can test
+Using the above convention (and from a different directory on `login05.osgconnect.net`, any directory), you can test
 the download of your `pdbaa_files.tar.gz` file with a command like the following:
 
 ``` console
-user@login04 $ wget http://stash.osgconnect.net/public/<USERNAME>/pdbaa_files.tar.gz
+user@login05 $ wget http://stash.osgconnect.net/public/<USERNAME>/pdbaa_files.tar.gz
 ```
 
 Again, replacing `<USERNAME>` with your own username.
@@ -90,7 +90,7 @@ You may wish to first remove the log, result, output, and error files from the p
 when the new test job completes.
 
 ``` console
-user@login04 $ rm *.err *.out *.result *.log
+user@login05 $ rm *.err *.out *.result *.log
 ```
 
 Submit a single test job!  (If your submit file uses a `queue .. matching` statement, a simple way to submit a single job is to temporarily change it to `queue inputfile matching mouse_rna.fa.1`.
@@ -148,7 +148,7 @@ If all of the previous tests have gone okay, you can prepare to run all 100 jobs
 To make sure you're not going to generate too much data, use the size of files from the previous test to calculate how
 much total data you're going to add to the `blast-split` directory for 100 jobs.
 
-Make sure you remove `pdbaa_files.tar.gz` from the `transfer_input_files` in the _split_ submit file.
+Make sure you remove `pdbaa_files.tar.gz` from the `transfer_input_files` in the _split_ submit file. Moreover, don't forget to remove the log, error and output file of the previous job.
 
 Submit all 100 jobs!
 They may take a while to all complete, but it will still be faster than the many hours it would have taken to blast the

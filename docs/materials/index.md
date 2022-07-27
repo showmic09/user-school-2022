@@ -31,7 +31,8 @@ View the slides
 - [Bonus Exercise 1.9: Explore `condor_status`](htcondor/part1-ex9-status.md)
 
 ## Intro to HTCondor Multiple Job Execution
-Slides will be posted here. 
+
+View the Slides ([PDF](htcondor/files/osgus22-htc-htcondor-PART2.pdf))
 
 ### Intro Exercises 2: Running Many HTC Jobs (Strongly Recommended)
 
@@ -39,6 +40,22 @@ Slides will be posted here.
 - [Exercise 2.2: Use `queue N`, `$(Cluster)`, and `$(Process)`](htcondor/part2-ex2-queue-n.md)
 - [Exercise 2.3: Use `queue from` with custom variables](htcondor/part2-ex3-queue-from.md)
 - [Bonus Exercise 2.4: Use `queue matching` with a custom variable](htcondor/part2-ex4-queue-matching.md)
+
+
+## OSG
+
+View the slides
+([PDF](osg/files/osgus22-day2-2-osg-cartwright.pdf),
+[PowerPoint](osg/files/osgus22-day2-2-osg-cartwright.pptx))
+
+### OSG Exercises: Comparing CHTC and OSG (Strongly Recommended)
+
+- [Exercise 1.1: Refresher – submitting multiple jobs](osg/part1-ex1-submit-refresher.md)
+- [Exercise 1.2: Log in to the OS Pool Access Point](osg/part1-ex2-login-scp.md)
+- [Exercise 1.3: Running jobs in OSG](osg/part1-ex3-submit-osg.md)
+- [Exercise 1.4: Hardware differences between CHTC and OSG](osg/part1-ex4-hardware-diffs.md)
+- [Exercise 1.5: Software differences in OSG](osg/part1-ex5-software-diffs.md)
+
 
 ## Troubleshooting
 
@@ -50,9 +67,12 @@ Slides will be posted here.
 - [Exercise 1.1: Troubleshooting Jobs](troubleshooting/part1-ex1-troubleshooting.md)
 - [Exercise 1.2: Job Retry](troubleshooting/part1-ex2-job-retry.md)
 
+
 ## Software
 
-Slides will be posted here
+View the slides
+([PDF](software/files/osgus22-software.pdf),
+[PowerPoint](software/files/osgus22-software.pptx))
 
 ### Software Exercises 1: Basic Software and Wrapper Script Use (Strongly Recommended)
 
@@ -78,6 +98,7 @@ still working on
 
 - [Exercise 4.1: Using Software in a Docker Container](software/part4-ex1-docker.md)
 - [Exercise 4.2: Building Your Own Docker Container (Beta)](software/part4-ex2-docker-build.md)
+
 
 ## Data
 

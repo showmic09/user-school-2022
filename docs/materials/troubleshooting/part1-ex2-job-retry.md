@@ -48,7 +48,7 @@ Let’s see what happens when a program like this one is run in HTCondor.
 What output do you expect? What output did you get? If you are curious about the exit code from the job, it is saved in completed jobs in `condor_history` in the `ExitCode` attribute. The following command will show the `ExitCode` for a given cluster of jobs:
 
 ``` console
-username@learn $ condor_history <CLUSTER> -af ProcId ExitCode
+username@login05 $ condor_history <CLUSTER> -af ProcId ExitCode
 ```
 
 (Be sure to replace `<cluster>` with your actual cluster ID. The command may take a minute or so to complete.)

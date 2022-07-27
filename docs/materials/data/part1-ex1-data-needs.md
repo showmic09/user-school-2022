@@ -13,7 +13,7 @@ In this exercise we will attempt to understand the input and output of the bioin
 Setup
 -----
 
-1. Log in to `login04.osgconnect.net`
+1. Log in to `login05.osgconnect.net`
 
 2. Create a directory for this exercise named `blast-data` and change into it
 
@@ -27,19 +27,19 @@ For our input file, we'll use an abbreviated fasta file with mouse genome inform
 1. Copy the BLAST executables:
 
         :::console
-        user@login04 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/ncbi-blast-2.12.0+-x64-linux.tar.gz
-        user@login04 $ tar -xzvf ncbi-blast-2.12.0+-x64-linux.tar.gz
+        user@login05 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/ncbi-blast-2.12.0+-x64-linux.tar.gz
+        user@login05 $ tar -xzvf ncbi-blast-2.12.0+-x64-linux.tar.gz
 
 1.  Download these files to your current directory:
 
         :::console
-        user@login04 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/pdbaa.tar.gz
-        user@login04 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/mouse.fa
+        user@login05 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/pdbaa.tar.gz
+        user@login05 $ wget http://stash.osgconnect.net/public/osg/user-school-2022/mouse.fa
 
 1.  Untar the `pdbaa` database:
 
         :::console
-        user@login04 $ tar -xzvf pdbaa.tar.gz
+        user@login05 $ tar -xzvf pdbaa.tar.gz
 
 Understanding BLAST
 -------------------
@@ -47,7 +47,7 @@ Understanding BLAST
 Remember that `blastx` is executed in a command like the following:
 
 ``` console
-user@login04 $ ./blastx -db <DATABASE ROOTNAME> -query <INPUT FILE> -out <RESULTS FILE>
+user@login05 $ ./blastx -db <DATABASE ROOTNAME> -query <INPUT FILE> -out <RESULTS FILE>
 ```
 
 In the above, the `<INPUT FILE>` is the name of a file containing a number of genetic sequences (e.g. `mouse.fa`), and
@@ -70,17 +70,17 @@ Here are some commands that will be useful for calculating your job's storage ne
 - List the size of a specific file:
 
         :::console
-        user@login04 $ ls -lh <FILE NAME>
+        user@login05 $ ls -lh <FILE NAME>
 
 - List the sizes of all files in the current directory:
 
         :::console
-        user@login04 $ ls -lh
+        user@login05 $ ls -lh
 
 - Sum the size of all files in a specific directory:
 
         :::console
-        user@login04 $ du -sh <DIRECTORY>
+        user@login05 $ du -sh <DIRECTORY>
 
 ### Input requirements
 

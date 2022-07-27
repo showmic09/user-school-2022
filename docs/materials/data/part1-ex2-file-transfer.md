@@ -15,7 +15,7 @@ Setup
 
 The executable we'll use in this exercise and later today is the same `blastx` executable from previous exercises.
 
-1. Log in to `login04.osgconnect.net`
+1. Log in to `login05.osgconnect.net`
 
 2. Change into the `blast-data` folder that you created in the previous exercise.
 
@@ -63,7 +63,7 @@ For this version of the job, let's compress our blast database files to send the
     Remember, a typical command for creating a tar file is:
 
         :::console
-        user@login04 $ tar -cvzf <COMPRESSED FILENAME> <LIST OF FILES OR DIRECTORIES>
+        user@login05 $ tar -cvzf <COMPRESSED FILENAME> <LIST OF FILES OR DIRECTORIES>
 
 
     Replacing `<COMPRESSED FILENAME>` with the name of the tarball that you would like to create and
