@@ -7,7 +7,7 @@ status: testing
 Workflows Exercise 1.2: A Brief Detour Through the Mandelbrot Set
 ==============================================================
 
-Before we explore using DAGs to implement workflows, let’s get a more interesting job. Let’s make pretty pictures!
+Before we explore using DAGs to implement workflows, let’s get a more interesting job to run. Let’s make pretty pictures!
 
 We have a small program that draws pictures of the Mandelbrot set. You can [read about the Mandelbrot set on Wikipedia](https://en.wikipedia.org/wiki/Mandelbrot_set), or you can simply appreciate the pretty pictures. It’s a fractal.
 
