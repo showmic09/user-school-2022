@@ -108,13 +108,16 @@ View the slides
 
 ### Workflows with DAGMan
 
-Slides will be posted here.
+View the **DRAFT** slides
+([PDF](workflows/files/osgus22-bonus-dagman.pdf),[PowerPoint](workflows/files/osgus22-bonus-dagman.pptx))
 
 - [Exercise 1.1: Coordinating set of jobs: A simple DAG](workflows/part1-ex1-simple-dag.md)
 - [Exercise 1.2: A brief detour through the Mandelbrot set](workflows/part1-ex2-mandelbrot.md)
 - [Exercise 1.3: A more complex DAG](workflows/part1-ex3-complex-dag.md)
 - [Exercise 1.4: Handling jobs that fail with DAGMan](workflows/part1-ex4-failed-dag.md)
 - [Bonus Exercise 4.5: HTCondor challenges](workflows/part1-ex5-challenges.md)
+
+<!-- BEGIN EXTRA TOPICS THAT ARE NOT READY YET
 
 ### Containers (and GPUs?)
 
