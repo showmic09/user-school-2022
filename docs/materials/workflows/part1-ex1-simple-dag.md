@@ -9,7 +9,8 @@ status: testing
 
 # Workflows Exercise 1.1: Coordinating a Set of Jobs With a Simple DAG
 
-The objective of this exercise is to learn the very basics of running a set of jobs, where our set is just one job.
+The objective of this exercise is to learn the very basics of running a set of jobs as a single DAG workflow. We'll 
+first show what it looks like to submit a workflow that contains a single job..
 
 ## What is DAGMan?
 
@@ -18,7 +19,7 @@ For example, you may wish to run a large parameter sweep but before the sweep ru
 the sweep runs, you need to collate the results.  This might look like this, assuming you want to sweep over five
 parameters:
 
-![simple DAG](files/osgvsp20-workflows-part1-ex1-simple-dag.gif)
+![simple DAG](files/osgus22-workflows-part1-ex1-simple-dag.gif)
 
 DAGMan has many abilities, such as throttling jobs, recovery from failures, and more.  More information about DAGMan can
 be found at [in the HTCondor manual](https://htcondor.readthedocs.io/en/latest/users-manual/dagman-workflows.html).
