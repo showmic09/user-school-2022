@@ -10,7 +10,7 @@ status: testing
 # Workflows Exercise 1.1: Coordinating a Set of Jobs With a Simple DAG
 
 The objective of this exercise is to learn the very basics of running a set of jobs as a single DAG workflow. We'll 
-first who what it looks like to submit a workflow that contains a single job..
+first show what it looks like to submit a workflow that contains a single job..
 
 ## What is DAGMan?
 
